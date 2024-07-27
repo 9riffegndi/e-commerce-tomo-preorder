@@ -10,7 +10,8 @@
   /* NAVBAR */
   .navbar {
     background-color: white;
-    border-bottom: 2px dashed black;
+    /* box-shadow: #666 0px 0px 10px 0px; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.113);
     width: 100%;
     padding: 0;
     position: fixed;
@@ -75,6 +76,179 @@
     height: auto;
   }
 
+  /* addres modal */
+  .addres-modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: #03ac0e; */
+    /* background-color: rgba(0, 0, 0, 0.26); */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .addres-modal-overlay2 {
+
+    background-color: white;
+    border-radius: 6px;
+    padding: 20px;
+    width: 800px;
+    height: 390px;
+    max-width: 800px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.255);
+  }
+
+  .content-addres-modal2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* background-color: #03ac0e; */
+  }
+
+  .header-addres-modal h4 {
+    margin: 0;
+    /* background-color: antiquewhite; */
+    font-size: 18px;
+  }
+
+  .header-addres-modal p {
+    margin: 5px 0 0;
+    position: relative;
+    font-size: 14px;
+    /* background-color: rebeccapurple; */
+    color: #666;
+  }
+
+  .close-button-addres-modal button {
+    background: none;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  .addres-modal-login {
+    /* position: relative; */
+    /* --bg: black; */
+    /* --hover-bg: #ffffff; */
+    /* --hover-text: #000; */
+    background-color: black;
+    /* background-color: blue; */
+    /* color: white; */
+    cursor: pointer;
+    border-radius: 6px;
+    /* padding: 0.8em 2em; */
+    transition: 0.4s;
+  }
+
+  .addres-modal-login:hover {
+    color: black;
+    transform: translate(-0.25rem, -0.25rem);
+    /* background: var(--hover-bg); */
+    background-color: #fff;
+    border: 1px solid black;
+    box-shadow: 0.25rem 0.25rem black;
+  }
+
+  .addres-modal-login:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+
+
+  .login-container {
+    position: relative;
+    background-color: #f3f3f3;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px 0;
+  }
+
+  .login-header-p p:first-child {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .login-header-p p:last-child {
+    font-size: 14px;
+    color: #666;
+    margin-top: 0;
+  }
+
+  .addres-modal-login {
+    /* background-color: #000000; */
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 16px;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+
+  .location-addres-use {
+    /* position: relative; */
+    /* --bg: black; */
+    /* --hover-bg: #ffffff; */
+    /* --hover-text: #000; */
+    /* background-color: aqua; */
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    transition: 0.4s;
+  }
+
+  .location-addres-use:hover {
+    color: black;
+    transform: translate(-0.25rem, -0.25rem);
+    /* background: var(--hover-bg); */
+    background-color: #fff;
+    border: 1px solid black;
+    box-shadow: 0.25rem 0.25rem black;
+  }
+
+  .location-addres-use:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+
+
+  .container-search-input-addres {
+    display: flex;
+    margin-top: 0px;
+    width: 100%;
+    /* background-color: #03ac0e; */
+  }
+
+  .contiener-input-search-addres-location {
+    width: 100%;
+
+
+  }
+
+  .location-addres-use {
+    width: 20%;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 40px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+
   .user-actions {
     display: flex;
     flex-direction: column;
@@ -98,6 +272,82 @@
     height: auto;
   }
 
+  .modal {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .modal-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .modal-subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .close-button {
+    font-size: 24px;
+    color: #666;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+
+  .login-option {
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .login-button {
+    background-color: #03ac0e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .alternative-option {
+    margin-top: 20px;
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+
+  .use-button {
+    background-color: #f3f3f3;
+    color: #666;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+  }
+
   /* Submenu styles */
   .submenu-Category {
     display: none;
@@ -105,7 +355,7 @@
     margin-top: 5px;
     left: 0;
     background-color: white;
-    border: 2px dashed black;
+    border: 1px solid black;
     z-index: 100;
   }
 
@@ -269,25 +519,29 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    transform: translateY(50%);
+    transform: translateY(100%);
   }
 
   .slide-nav button {
-    background: #444;
+    background: black;
     color: white;
-    border: none;
+    /* border: none; */
     border-radius: 120px;
-    padding: 10px 15px;
+    margin: 0px 10px 0px 10px;
+    padding: 10px 10px 10px 10px;
+    /* border: 2px dashed black; */
     cursor: pointer;
-    font-size: 22px;
+    font-size: 15px;
     font-weight: bold;
-    transition: background 0.3s ease;
+    transition: background 0.5s ease;
   }
 
   .slide-nav button:hover {
-    background: whitesmoke;
-    border: 2px dashed black;
+    background: white;
+    /* border: 1px dashed black; */
     color: black;
+    border: 2px dashed black;
+    /* box-shadow: beige 0px 0px 0px 2px ; */
   }
 
 
@@ -323,9 +577,10 @@
   .container-product-title-and-buttons {
     justify-content: center;
     align-items: center;
-    width: 97%;
-    bottom: 15px;
-    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 115px;
+    position: relative;
   }
 
   .product-title {
@@ -333,8 +588,7 @@
     height: auto;
     font-size: 50px;
     font-weight: bold;
-    padding: 10px;
-    margin: 20px 0;
+    /* background-color: aqua; */
     color: #ffffff;
   }
 
@@ -343,6 +597,7 @@
     display: flex;
     justify-content: center;
     gap: 5px;
+
   }
 
   .buttons button {
