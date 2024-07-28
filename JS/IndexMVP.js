@@ -1,66 +1,68 @@
-    document.addEventListener("DOMContentLoaded", () => {
-    const IndexMvp = document.getElementById("IndexMvp");
+document.addEventListener("DOMContentLoaded", () => {
+  const IndexMvp = document.getElementById("IndexMvp");
 
-    const navbar = createNavbar();
-    IndexMvp.appendChild(navbar);
+  const navbar = createNavbar();
+  IndexMvp.appendChild(navbar);
 
-    const productShowcase = createProductShowcase();
-    IndexMvp.appendChild(productShowcase);
+  const productShowcase = createProductShowcase();
+  IndexMvp.appendChild(productShowcase);
 
-    const footer = createFooter();
-    IndexMvp.appendChild(footer);
+  const footer = createFooter();
+  IndexMvp.appendChild(footer);
 
-    initializeSlideshow();
+  initializeSlideshow();
 
-    // Mini Cart Overlay
-    const cartIcon = document.querySelector(".cart-icon");
-    const miniCartOverlay = document.querySelector(".mini-cart-overlay");
-    const closeBtn = document.querySelector(".close-btn");
+  // Mini Cart Overlay
+  const cartIcon = document.querySelector(".cart-icon");
+  const miniCartOverlay = document.querySelector(".mini-cart-overlay");
+  const closeBtn = document.querySelector(".close-btn");
 
-    cartIcon.addEventListener("click", (event) => {
-        event.preventDefault();
-        miniCartOverlay.style.display = "block  ";
-    });
+  cartIcon.addEventListener("click", (event) => {
+    event.preventDefault();
+    miniCartOverlay.style.display = "block  ";
+  });
 
-    closeBtn.addEventListener("click", () => {
-        miniCartOverlay.style.display = "none";
-    });
+  closeBtn.addEventListener("click", () => {
+    miniCartOverlay.style.display = "none";
+  });
 
-    miniCartOverlay.addEventListener("click", (event) => {
-        if (event.target === miniCartOverlay) {
-        miniCartOverlay.style.display = "none";
-        }
-    });
-    //Address Modal
-    const addressLink = document.querySelector(".nav-link.address-link");
-    const addressModal = document.querySelector(".addres-modal-overlay");
-    const closeButton = document.querySelector(
-        ".close-button-addres-modal button"
-    );
+  miniCartOverlay.addEventListener("click", (event) => {
+    if (event.target === miniCartOverlay) {
+      miniCartOverlay.style.display = "none";
+    }
+  });
+  //Address Modal
+  const addressLink = document.querySelector(".nav-link.address-link");
+  const addressModal = document.querySelector(".addres-modal-overlay");
+  const closeButton = document.querySelector(
+    ".close-button-addres-modal button"
+  );
 
-    addressLink.addEventListener("click", (event) => {
-        event.preventDefault();
-        addressModal.style.display = "flex";
-    });
+  addressLink.addEventListener("click", (event) => {
+    event.preventDefault();
+    addressModal.style.display = "flex";
+  });
 
-    closeButton.addEventListener("click", () => {
-        addressModal.style.display = "none";
-    });
+  closeButton.addEventListener("click", () => {
+    addressModal.style.display = "none";
+  });
 
-    // Menutup modal jika user mengklik di luar modal
-    addressModal.addEventListener("click", (event) => {
-        if (event.target === addressModal) {
-        addressModal.style.display = "none";
-        }
-    });
-    });
+  // Menutup modal jika user mengklik di luar modal
+  addressModal.addEventListener("click", (event) => {
+    if (event.target === addressModal) {
+      addressModal.style.display = "none";
+    }
+  });
+});
 
-    // Navbar
-    function createNavbar() {
-    const navbar = document.createElement("nav");
-    navbar.className = "navbar";
+// Location popular container
 
-    navbar.innerHTML = `
+// Navbar
+function createNavbar() {
+  const navbar = document.createElement("nav");
+  navbar.className = "navbar";
+
+  navbar.innerHTML = `
                                             <ul class="nav-list">
                                                 <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
                                                 <li class="nav-item">
@@ -121,10 +123,11 @@
                                                                 </section>
                                                                 <hr>
                                                                 <p><strong>Do you want to use another way?</strong></p>
+                                                                <div class="parent-container-search-addres">
                                                                 <div class="container-search-addres">
                                                                     <div class="container-search-input-addres">
                                                                         <div class="container-icon-seacrh-addres">
-                                                                            <img src="" alt="">
+                                                                            <img  class="icon-search-addres"  src="/src/assets/img/Icon/search.png" alt="">
                                                                         </div>
                                                                         <div class="contiener-input-search-addres-location">
                                                                             <input type="text" class="search-input" placeholder="Select a city or sub-district">
@@ -136,20 +139,51 @@
                                                                         </button>
                                                                     </div>
                                                                 </div>
+                                                                <div class="container-location-popular">
+                                                                    <div class="container-button-location-popular">
+                                                                        <div class="icon-cordinate-location-pupular">
+                                                                            <img class="icon-cordinate-popular-location" src="/src/assets/img/Icon/aim.png" alt="Cordinate Popular location">
+                                                                            <p>Use current location</p>
+                                                                        </div>
+                                                                        <p class="popular-city-p">Popular City</p>
+                                                                        <div class="container-popular-city-button">
+                                                                            <button class="btn-data-popular-city-name">Jakarta</button>
+                                                                            <button class="btn-data-popular-city-name">bandung</button>
+                                                                            <button class="btn-data-popular-city-name">Yogyakarta</button>
+                                                                            <button class="btn-data-popular-city-name">Semarang</button>
+                                                                            <button class="btn-data-popular-city-name">Indramayu</button>
+                                                                            <button class="btn-data-popular-city-name">Cirebon</button>
+                                                                            <button class="btn-data-popular-city-name">Bogor</button>
+                                                                            <button class="btn-data-popular-city-name">Malang</button>
+                                                                            <button class="btn-data-popular-city-name">Jakarta</button>
+                                                                            <button class="btn-data-popular-city-name">Surabaya</button>
+                                                                            <button class="btn-data-popular-city-name">Medan</button>
+                                                                            <button class="btn-data-popular-city-name">Makassar</button>
+                                                                            <button class="btn-data-popular-city-name">Palembang</button>
+                                                                            <button class="btn-data-popular-city-name">Bandung</button>
+                                                                            <button class="btn-data-popular-city-name">Malang</button>
+                                                                            <button class="btn-data-popular-city-name">Bali</button>
+                                                                            <button class="btn-data-popular-city-name">Semarang</button>
+                                                                            <button class="btn-data-popular-city-name">Batam</button>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                </div>
                                                             </article>
                                                         </div>
                                                     </div>
                                                 </li>
                                             </ul>
                                         `;
-    return navbar;
-    }
+  return navbar;
+}
 
-    // Mvp Product showcase
-    function createProductShowcase() {
-    const showcase = document.createElement("div");
-    showcase.className = "MVP-product-showcase-container";
-    showcase.innerHTML = `
+// Mvp Product showcase
+function createProductShowcase() {
+  const showcase = document.createElement("div");
+  showcase.className = "MVP-product-showcase-container";
+  showcase.innerHTML = `
                                             <div class="showcase-wrapper">
                                                 <div class="Mvp-product-showcase">
                                                     <div class="pre-order-badge">PRE-ORDER</div>
@@ -193,46 +227,46 @@
                                                 <button class="next">&gt;</button>
                                             </div>
                                         `;
-    return showcase;
-    }
+  return showcase;
+}
 
-    // Initialize Slideshow
-    function initializeSlideshow() {
-    const container = document.querySelector(".MVP-product-showcase-container");
-    const wrapper = container.querySelector(".showcase-wrapper");
-    const slides = wrapper.querySelectorAll(".Mvp-product-showcase");
-    const prevBtn = container.querySelector(".slide-nav .prev");
-    const nextBtn = container.querySelector(".slide-nav .next");
-    let currentIndex = 0;
+// Initialize Slideshow
+function initializeSlideshow() {
+  const container = document.querySelector(".MVP-product-showcase-container");
+  const wrapper = container.querySelector(".showcase-wrapper");
+  const slides = wrapper.querySelectorAll(".Mvp-product-showcase");
+  const prevBtn = container.querySelector(".slide-nav .prev");
+  const nextBtn = container.querySelector(".slide-nav .next");
+  let currentIndex = 0;
 
-    // Function to show the slide at the given index
-    function showSlide(index) {
-        wrapper.style.transform = `translateX(-${index * 100}%)`;
-    }
+  // Function to show the slide at the given index
+  function showSlide(index) {
+    wrapper.style.transform = `translateX(-${index * 100}%)`;
+  }
 
-    // Function to show the next slide
-    function nextSlide() {
-        currentIndex = (currentIndex + 1) % slides.length;
-        showSlide(currentIndex);
-    }
+  // Function to show the next slide
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % slides.length;
+    showSlide(currentIndex);
+  }
 
-    // Function to show the previous slide
-    function prevSlide() {
-        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-        showSlide(currentIndex);
-    }
+  // Function to show the previous slide
+  function prevSlide() {
+    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+    showSlide(currentIndex);
+  }
 
-    // Event listeners for navigation buttons
-    prevBtn.addEventListener("click", prevSlide);
-    nextBtn.addEventListener("click", nextSlide);
-    }
+  // Event listeners for navigation buttons
+  prevBtn.addEventListener("click", prevSlide);
+  nextBtn.addEventListener("click", nextSlide);
+}
 
-    // FOOTER
-    function createFooter() {
-    const footer = document.createElement("footer");
-    footer.className = "footer";
+// FOOTER
+function createFooter() {
+  const footer = document.createElement("footer");
+  footer.className = "footer";
 
-    footer.innerHTML = `
+  footer.innerHTML = `
                                             <div class="footer-content">
                                                 <div class="footer-content1">
                                                     <ul class="footer-list1">
@@ -277,5 +311,5 @@
                                                 </section>
                                             </div>
                                         `;
-    return footer;
-    }
+  return footer;
+}
