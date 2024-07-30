@@ -151,7 +151,7 @@ function CreateNavbar() {
                 </div>
             </li>
             <li class="nav-item user-actions">
-                <a href="#" class="nav-link login-register">LOGIN | REGISTER</a>
+                <a href="/pages/LoginPage.html" class="nav-link login-register">LOGIN | REGISTER</a>
                 <a href="#" class="nav-link address-link">
                     Dikirim ke - <span class="city-address">Indramayu</span>
                     <img src="/src/assets/Icon/location.png" alt="Address-icon" class="icon-address">
