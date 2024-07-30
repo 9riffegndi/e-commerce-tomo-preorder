@@ -1,0 +1,138 @@
+/* Footer */
+.Footer {
+  position: absolute;
+  /* background-color: blue; */
+  /* max-height: max-content; */
+  border-radius: 20px 20px 0 0;
+  border-top: 2px solid black;
+  width: 100%;
+  height: 220PX;
+  /* height: 40%; */
+  bottom: -260px;
+  background-color: white;
+}
+
+.footer-content {
+  width: 100%;
+  /* background-color: white;  */
+  display: flex;
+  align-items: center;
+  padding-bottom: 200px;
+  bottom: 0;
+  justify-content: flex-end;
+  /* background-color: blue; */
+}
+
+.footer-list1 {
+  width: 250px;
+  height: auto;
+  list-style-type: none;
+  margin: 10px;
+  /* background-color: aqua; */
+  padding: 0;
+  align-items: center;
+}
+
+.fot-item1 {
+  padding: 10px 0;
+  margin: 0;
+}
+
+.fot-item1 h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.fot-link1 {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  /* Ensures proper width for pseudo-element */
+}
+
+.fot-link1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.fot-link1:hover::before {
+  transform: scaleX(1);
+}
+
+/* Footer Social Media Links */
+.footer-social-media {
+  position: relative;
+  width: 52%;
+  height: 50%;
+  margin-left: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-social-media-follow-block {
+  text-align: left;
+}
+
+.footer-social-media-follow-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.Follow-us-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Follow-us-list li {
+  display: flex;
+  align-items: center;
+}
+
+.Follow-us-list a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.Follow-us-list a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.Follow-us-list a:hover::before {
+  transform: scaleX(1);
+}
+
+.Follow-us-list img {
+  width: 24px;
+  height: 25px;
+}
+/* Footer */
