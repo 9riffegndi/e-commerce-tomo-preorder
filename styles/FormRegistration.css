@@ -1,5 +1,5 @@
 .RegistrationForm {
-    width: 600px;
+    /* width: 600px; */
     height: 500px;
     position: relative;
     margin-top: 100px;
@@ -13,7 +13,7 @@
 
 .Wrapper-form-registration {
     /* background-color: gray; */
-    padding-top: 50px;
+    /* padding-top: 0p  ; */
     height: auto;
     /* margin-bottom: -20px; */
     /* padding: 120px;    */
@@ -34,7 +34,7 @@
     display: flex;
     /* background-color: firebrick; */
     /* margin-bottom: 10px; */
-    gap: 10px;
+    gap: 5px;
     justify-content: center;
 }
 
