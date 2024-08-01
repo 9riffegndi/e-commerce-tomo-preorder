@@ -108,14 +108,15 @@
 .buttons {
   display: flex;
   justify-content: center;
-  gap: 5px;
+  gap: 15px;
 }
 
 .buttons button {
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   font-size: 16px;
-  margin-bottom: 10px;
+  /* margin-bottom: px; */
   border: none;
+  box-sizing: border-box;
   cursor: pointer;
   /* position: relative; */
   /* overflow: hidden; */
@@ -126,14 +127,17 @@
   font-weight: bold;
 }
 
+
 .shop-now {
   /* position: relative; */
   /* --bg: black; */
+  transform-origin: center;
   /* --hover-bg: #ffffff; */
   /* --hover-text: #000; */
   /* background-color: aqua; */
   background-color: blue;
   color: white;
+  text-decoration: none;
   cursor: pointer;
   border-radius: 4px;
   padding: 0.8em 2em;
@@ -143,9 +147,12 @@
 .shop-now:hover {
   color: black;
   transform: translate(-0.25rem, -0.25rem);
+  /* Pastikan nilai ini tidak terlalu besar */
   /* background: var(--hover-bg); */
   background-color: #fff;
   border: 1px solid black;
+  border: 1px solid black;
+  box-shadow: 0.25rem 0.25rem black;
   box-shadow: 0.25rem 0.25rem black;
 }
 
@@ -155,6 +162,7 @@
 }
 
 .add-to-cart {
+  transform-origin: center;
   /* position: relative; */
   /* --bg: black; */
   /* --hover-bg: #ffffff; */
@@ -171,8 +179,11 @@
 .add-to-cart:hover {
   color: black;
   transform: translate(-0.25rem, -0.25rem);
+  /* Pastikan nilai ini tidak terlalu besar */
   /* background: var(--hover-bg); */
   background-color: #fff;
+  border: 1px solid black;
+  box-shadow: 0.25rem 0.25rem black;
   border: 1px solid black;
   box-shadow: 0.25rem 0.25rem black;
 }

@@ -41,7 +41,7 @@ function CreateShowcaseMVP() {
                         <div class="buttons">
                             <button class="shop-now"><span>SHOP NOW</span></button>
                             <button class="add-to-cart"><span>ADD TO CART</span>
-                            <img src="/src/assets/img/Icon/bag.png" alt="Cart-icon" class="cart-icon-img"></button>
+                            <img src="/src/assets/Icon/bag.png" alt="Cart-icon" class="cart-icon-img"></button>
                         </div>
                     </div>
                 </div>

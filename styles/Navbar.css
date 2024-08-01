@@ -138,6 +138,7 @@
   transition: 0.4s;
 }
 
+
 .addres-modal-login:hover {
   color: black;
   transform: translate(-0.25rem, -0.25rem);
@@ -177,11 +178,12 @@
   font-weight: bold;
   border: none;
   border-radius: 8px;
-  padding: 10px 15px;
-  font-size: 16px;
+  padding: 10px 0px;
+    font-size: 16px;
   display: flex;
   position: relative;
   cursor: pointer;
+text-decoration: none;
   width: 100%;
   justify-content: center;
   margin-top: 10px;

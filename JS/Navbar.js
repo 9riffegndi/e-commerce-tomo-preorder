@@ -127,7 +127,7 @@ function CreateNavbar() {
                 </div>
             </li>
             <li class="nav-item logo">
-                <a href="#" class="nav-link logo-link">
+                <a href="/pages/IndexMVP.html" class="nav-link logo-link">
                     <img src="/src/assets/Logo/TOMO LOGOS NOBG.png" alt="logo-tomo" class="logo-img">
                 </a>
             </li>
@@ -151,7 +151,7 @@ function CreateNavbar() {
                 </div>
             </li>
             <li class="nav-item user-actions">
-                <a href="/pages/LoginPage.html" class="nav-link login-register">LOGIN | REGISTER</a>
+                <a href="/pages/Login.html" class="nav-link login-register">LOGIN | REGISTER</a>
                 <a href="#" class="nav-link address-link">
                     Dikirim ke - <span class="city-address">Indramayu</span>
                     <img src="/src/assets/Icon/location.png" alt="Address-icon" class="icon-address">
@@ -173,7 +173,8 @@ function CreateNavbar() {
                                     <p>LOGIN</p>
                                     <p>Login first to select your shipping address</p>
                                 </div>
-                                <button class="addres-modal-login">Login</button>
+                                <!-- <button class="addres-modal-login">Login </button> -->
+                                <a  class="addres-modal-login" href="/pages/Login.html">Login</a>
                             </section>
                             <hr>
                             <p><strong>Do you want to use another way?</strong></p>
