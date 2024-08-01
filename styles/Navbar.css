@@ -179,11 +179,11 @@
   border: none;
   border-radius: 8px;
   padding: 10px 0px;
-    font-size: 16px;
+  font-size: 16px;
   display: flex;
   position: relative;
   cursor: pointer;
-text-decoration: none;
+  text-decoration: none;
   width: 100%;
   justify-content: center;
   margin-top: 10px;
@@ -452,16 +452,16 @@ text-decoration: none;
   display: none;
   position: absolute;
   margin-top: 5px;
-  left: 0;
   background-color: white;
-  border: 1px solid black;
+  border: 1px solid rgb(193, 192, 192);
   z-index: 100;
 }
 
 .submenu-Category a {
   display: block;
-  padding: 10px 20px;
+  padding: 20px;
   font-size: 17px;
+  /* background-color: aqua; */
   margin-top: 10px;
   text-decoration: none;
   color: black;
@@ -469,8 +469,10 @@ text-decoration: none;
 
 .nav-item:hover .submenu-Category {
   display: block;
-  padding: 10px;
 }
+
+
+
 
 /* Mini Cart Styles NAV */
 .mini-cart-overlay {

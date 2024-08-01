@@ -128,7 +128,7 @@
 }
 
 .Follow-us-list a:hover::before {
-  transform: scaleX(1);
+  transform: scaleX(0.72);
 }
 
 .Follow-us-list img {
