@@ -22,11 +22,12 @@ function CreateCardProduct() {
         </div>
             <div class="wrapper-modal-card-product">
             <div class="modal-card-prodcut">
-                    <div class="container-card-product">
+                <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
@@ -37,8 +38,9 @@ function CreateCardProduct() {
                 <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
@@ -49,8 +51,9 @@ function CreateCardProduct() {
                 <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
@@ -61,8 +64,9 @@ function CreateCardProduct() {
                 <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
@@ -73,8 +77,9 @@ function CreateCardProduct() {
                 <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
@@ -85,8 +90,9 @@ function CreateCardProduct() {
                 <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
@@ -97,8 +103,9 @@ function CreateCardProduct() {
                 <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
@@ -109,8 +116,9 @@ function CreateCardProduct() {
                 <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
@@ -121,8 +129,9 @@ function CreateCardProduct() {
                 <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
@@ -133,8 +142,9 @@ function CreateCardProduct() {
                 <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
@@ -151,11 +161,12 @@ function CreateCardProduct() {
         </div>
         <div class="wrapper-modal-card-product">
             <div class="modal-card-prodcut">
-                    <div class="container-card-product">
+                <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
@@ -166,8 +177,9 @@ function CreateCardProduct() {
                 <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
@@ -178,8 +190,9 @@ function CreateCardProduct() {
                 <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
@@ -190,8 +203,9 @@ function CreateCardProduct() {
                 <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
@@ -202,8 +216,9 @@ function CreateCardProduct() {
                 <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
@@ -220,11 +235,12 @@ function CreateCardProduct() {
         </div>
         <div class="wrapper-modal-card-product">
             <div class="modal-card-prodcut">
-                    <div class="container-card-product">
+                <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
@@ -235,8 +251,9 @@ function CreateCardProduct() {
                 <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
@@ -247,8 +264,9 @@ function CreateCardProduct() {
                 <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
@@ -259,8 +277,9 @@ function CreateCardProduct() {
                 <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
@@ -271,15 +290,16 @@ function CreateCardProduct() {
                 <div class="container-card-product">
                     <div class="badge-product-status">PRE ORDER</div>
                     <div class="badge-stock-product">20 PCS</div>
-                    <div class="card-product-image">
-                        <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                    <div>
+                        <img class="primary-card-product-image" src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
+                        <img class="secondary-card-product-image" src="/src/assets/img/Product/tshirt blue back.jpg" alt="card product image size 300x300">
                     </div>
                     <div class="container-description-card-product">
                     <div class="header-brand-name"><p>T O M O</p></div>
                     <div class="title-product-name">Love Bowl</div>
                     <div class="product-price">Rp 92.000</div>
                     </div>
-                </div>   
+                </div>
             </div>
         </div>
             
