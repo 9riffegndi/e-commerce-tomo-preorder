@@ -67,13 +67,14 @@
     align-items: center;
     display: flex;
     /* background-color: aqua; */
-    transition: ease 0.3s;
+    transition: ease-in-out 0.3s;
 }
 
 
 
 .secondary-card-product-image:hover {
     opacity: 1;
+
 }
 
 
