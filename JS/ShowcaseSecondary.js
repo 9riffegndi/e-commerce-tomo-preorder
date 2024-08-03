@@ -22,15 +22,27 @@ function CreateShowcaseMVP() {
   Showcase.innerHTML = `
             <div class="showcase-wrapper">
               <div class="Mvp-product-showcase">
-                <div class="product-image" style="background-image: url('/src/assets/img/Product/Mvp\ Product\ RED.png');"></div>
+                <div class="product-image" style="background-image: url('/src/assets/img/Product/showcase/all\ collections.png');"></div>
                   <div class="container-product-title-and-buttons"></div>
               </div>
             <div class="Mvp-product-showcase">
-              <div class="product-image" style="background-image: url('/src/assets/img/Product/Mvp\ Product.png ');"></div>
+              <div class="product-image" style="background-image: url('/src/assets/img/Product/showcase/white.png ');"></div>
                 <div class="container-product-title-and-buttons"></div>
             </div>
             <div class="Mvp-product-showcase">
-              <div class="product-image" style="background-image: url('/src/assets/img/Product/Mvp Product Hodie.png');"></div>
+              <div class="product-image" style="background-image: url('/src/assets/img/Product/showcase/sage.png');"></div>
+              <div class="container-product-title-and-buttons"></div>
+            </div>
+            <div class="Mvp-product-showcase">
+              <div class="product-image" style="background-image: url('/src/assets/img/Product/showcase/cream.png');"></div>
+                <div class="container-product-title-and-buttons"></div>
+            </div>
+            <div class="Mvp-product-showcase">
+              <div class="product-image" style="background-image: url('/src/assets/img/Product/showcase/black.png');"></div>
+              <div class="container-product-title-and-buttons"></div>
+            </div>
+            <div class="Mvp-product-showcase">
+              <div class="product-image" style="background-image: url('/src/assets/img/Product/showcase/green.png');"></div>
               <div class="container-product-title-and-buttons"></div>
             </div>
                 <!-- Additional product showcases here -->
@@ -38,21 +50,6 @@ function CreateShowcaseMVP() {
             <div class="slide-nav">
                 <button class="prev">&lt;</button>
                 <button class="next">&gt;</button>
-            </div>
-            <div class="overlay-card-product">
-              <div class="modal-card-prodcut">
-                <div class="container-card-product">
-                  <div class="header-card-title">ALL COLLECTIONS</div>
-                  <div class="badge-product-status">PRE ORDER</div>
-                  <div class="badge-stock-product">20 PCS</div>
-                  <img src="/src/assets/img/Product/tshirt blue.jpg" alt="card product image size 300x300">
-                </div>
-                <div class="container-description-card-product">
-                  <div class="header-brand-name"><p>T O M O</p></div>
-                  <div class="title-product-name">Love Bowl</div>
-                  <div class="product-price">Rp 92.000</div>
-                </div>
-              </div>
             </div>
     `;
   return Showcase;

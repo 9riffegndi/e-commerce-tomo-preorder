@@ -23,9 +23,9 @@ function CreateShowcaseMVP() {
             <div class="showcase-wrapper">
                 <div class="Mvp-product-showcase">
                     <div class="pre-order-badge">PRE-ORDER</div>
-                    <div class="product-image" style="background-image: url('/src/assets/img/Product/Mvp Product RED.png');"></div>
+                    <div class="product-image" style="background-image: url('/src/assets/img/Product/showcase/white.png');"></div>
                     <div class="container-product-title-and-buttons">
-                        <div class="product-title">MRERORR</div>
+                        <!-- <div class="product-title"><h3>MRMRR</h3></div> -->
                         <div class="buttons">
                         <a href="/pages/SecondaryCatalogue.html">
                             <button class="shop-now"><span>SHOP NOW</span></button>
@@ -37,9 +37,9 @@ function CreateShowcaseMVP() {
                 </div>
                 <div class="Mvp-product-showcase">
                     <div class="pre-order-badge">PRE-ORDER</div>
-                    <div class="product-image" style="background-image: url('/src/assets/img/Product/Mvp Product.png');"></div>
+                    <div class="product-image" style="background-image: url('/src/assets/img/Product/showcase/sage.png');"></div>
                     <div class="container-product-title-and-buttons">
-                        <div class="product-title">MRERORR</div>
+                        <!-- <div class="product-title"><h3>MRMRR</h3></div> -->
                         <div class="buttons">
                             <button class="shop-now"><span>SHOP NOW</span></button>
                             <button class="add-to-cart"><span>ADD TO CART</span>
@@ -49,9 +49,33 @@ function CreateShowcaseMVP() {
                 </div>
                 <div class="Mvp-product-showcase">
                     <div class="pre-order-badge">PRE-ORDER</div>
-                    <div class="product-image" style="background-image: url('/src/assets/img/Product/Mvp Product Hodie.png');"></div>
+                    <div class="product-image" style="background-image: url('/src/assets/img/Product/showcase/cream.png');"></div>
                     <div class="container-product-title-and-buttons">
-                        <div class="product-title">MRERORR</div>
+                        <!-- <div class="product-title"><h3>MRMRR</h3></div> -->
+                        <div class="buttons">
+                            <button class="shop-now"><span>SHOP NOW</span></button>
+                            <button class="add-to-cart"><span>ADD TO CART</span>
+                            <img src="/src/assets/Icon/bag.png" alt="Cart-icon" class="cart-icon-img"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="Mvp-product-showcase">
+                    <div class="pre-order-badge">PRE-ORDER</div>
+                    <div class="product-image" style="background-image: url('/src/assets/img/Product/showcase/black.png');"></div>
+                    <div class="container-product-title-and-buttons">
+                        <!-- <div class="product-title"><h3>MRMRR</h3></div> -->
+                        <div class="buttons">
+                            <button class="shop-now"><span>SHOP NOW</span></button>
+                            <button class="add-to-cart"><span>ADD TO CART</span>
+                            <img src="/src/assets/Icon/bag.png" alt="Cart-icon" class="cart-icon-img"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="Mvp-product-showcase">
+                    <div class="pre-order-badge">PRE-ORDER</div>
+                    <div class="product-image" style="background-image: url('/src/assets/img/Product/showcase/green.png');"></div>
+                    <div class="container-product-title-and-buttons">
+                        <!-- <div class="product-title"><h3>MRMRR</h3></div> -->
                         <div class="buttons">
                             <button class="shop-now"><span>SHOP NOW</span></button>
                             <button class="add-to-cart"><span>ADD TO CART</span>
