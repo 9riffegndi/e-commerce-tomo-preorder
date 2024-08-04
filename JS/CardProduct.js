@@ -24,14 +24,14 @@ function CreateCardProduct() {
             <div class="modal-card-prodcut">
                 <div class="container-card-product">
                     <div>
-                        <a href="#">
+                        <a href="/pages/QuickView.html">
                         <img
                             class="primary-card-product-image"
                             src="/src/assets/img/Product/tshirt orange/front .jpg"
                             alt="card product image size 300x300"
                         />
                         </a>
-                        <a href="#">
+                        <a href="/pages/QuickView.html">
                         <img
                             class="secondary-card-product-image"
                             src="/src/assets/img/Product/tshirt orange/back.jpg"

@@ -112,9 +112,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-
-
-
 // ------------------------------//
 // Navbar Structure              //
 // ------------------------------//
@@ -150,7 +147,7 @@ function CreateNavbar() {
                         <div class="mini-cart-content">
                             <img src="/src/assets/Icon/bag.png" alt="Cart-icon" class="icon-cart-large">
                             <p>Your cart is currently empty</p>
-                            <a href="#" class="start-shopping-link">START SHOPPING</a>
+                            <a href="/pages/SecondaryCatalogue.html" class="start-shopping-link">START SHOPPING</a>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,316 @@
+.Quck-view {
+    margin-top: 117px;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    padding: 10px;
+}
+
+
+
+.modal-quickview {
+    /* padding: 20px; */
+    display: flex;
+    max-width: max-content;
+    padding: 10px;
+    /* background-color: whitesmoke; */
+}
+
+.container-image-qv {
+    width: 670px;
+    height: max-content;
+    justify-content: center;
+    /* background-color: rgb(30, 255, 0); */
+}
+
+
+.main-image-gv img {
+    width: 90%;
+    height: 100%;
+    /* Atau 'auto' jika gambar harus menjaga rasio */
+    object-fit: cover;
+    /* background-color: antiquewhite; */
+    /* Atau 'contain' jika ingin gambar fit tanpa memotong */
+}
+
+.section-grid-two-image {
+    display: grid;
+    /* padding-top: 3px; */
+    margin: 0;
+    width: 90%;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    /* background-color: burlywood; */
+}
+
+.section-grid-two-image img {
+    width: 100%;
+    height: 100%;
+    /* Atau 'auto' jika gambar harus menjaga rasio */
+    object-fit: cover;
+    /* Atau 'contain' jika ingin gambar fit tanpa memotong */
+}
+
+.wrapper-container-description-product-qv {
+    width: 500px;
+    position: fixed;
+    height: max-content;
+    /* background-color: aquamarine; */
+    margin-top: -25px;
+    transition: opacity ease-in-out 0.1s, visibility ease-in 0.2s;
+}
+
+.parent-container-description-product-qv {
+    /* background-color: yellow; */
+    width: 500px;
+    height: 1815px;
+    position: relative;
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.header-brand-name-qv p {
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+
+.title-product-name-qv p {
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-top: -10px;
+}
+
+
+.price-diskon-status-qv {
+    margin-top: -60px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.product-price-qv-before-diskon p {
+    font-size: 25px;
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+.product-price-qv-after-diskon p {
+    font-size: 25px;
+    color: red;
+}
+
+.badge-product-status-qv {
+    width: max-content;
+    margin-top: 9px;
+    height: fit-content;
+    /* background-color: aqua; */
+}
+
+
+.badge-product-status-qv p {
+    width: max-content;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    font-size: 10px;
+    height: max-content;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.text-description {
+    width: 100%;
+    margin-top: -30px;
+    height: max-content;
+    /* background-color: black; */
+}
+
+.text-description p {
+    text-align: start;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.wrapper-input-size-qv {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+
+    background-color: transparent;
+    box-sizing: border-box;
+    /* padding: 0.25rem; */
+    width: 70%;
+    font-size: 14px;
+}
+
+.wrapper-input-size-qv .radio {
+    flex: 1 1 auto;
+    text-align: center;
+
+}
+
+.wrapper-input-size-qv .radio input {
+    display: none;
+
+}
+
+.wrapper-input-size-qv .radio .size {
+    display: flex;
+    height: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    align-items: center;
+    /* border-radius: 3px; */
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.093);
+    padding: .5rem 0;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.wrapper-input-size-qv .radio input:checked+.size {
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.wrapper-quantity-selector-add-cart-buyit {
+    /* background-color: bisque; */
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.quantity-selector {
+    border: 1px solid black;
+    display: flex;
+    /* background-color: rgb(255, 0, 0); */
+    width: max-content;
+    height: 50px;
+}
+
+.quantity-selector button {
+    border: none;
+    background-color: white;
+}
+
+button p {
+    margin: 0;
+    font-size: 30px;
+    /* Adjust font size of the h1 */
+    line-height: 1;
+    color: black;
+}
+
+
+.quantity-selector input {
+    text-align: center;
+    border: none;
+    width: 50px;
+    outline: none;
+}
+
+input[type="number"] {
+    color: black;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.quantity-selector h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 6px;
+}
+
+
+.buy-it {
+    /* position: relative; */
+    /* --bg: black; */
+    transform-origin: center;
+    /* --hover-bg: #ffffff; */
+    /* --hover-text: #000; */
+    /* background-color: aqua; */
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    transition: 0.4s;
+}
+
+.buy-it:hover {
+    color: black;
+    transform: translate(-0.25rem, -0.25rem);
+    /* Pastikan nilai ini tidak terlalu besar */
+    /* background: var(--hover-bg); */
+    background-color: #fff;
+    border: 1px solid black;
+    border: 1px solid black;
+    box-shadow: 0.25rem 0.25rem black;
+    box-shadow: 0.25rem 0.25rem black;
+}
+
+.buy-it:active {
+    transform: translate(0);
+    box-shadow: none;
+}
+
+
+
+
+.add-to-cart-qv {
+    transform-origin: center;
+    width: 70%;
+    /* position: relative; */
+    /* --bg: black; */
+    /* --hover-bg: #ffffff; */
+    /* --hover-text: #000; */
+    /* background-color: aqua; */
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    /* border-radius: 4px; */
+    padding: 0.8em 2em;
+    transition: 0.4s;
+}
+
+.add-to-cart-qv:hover {
+    color: black;
+    transform: translate(-0.25rem, -0.25rem);
+    /* Pastikan nilai ini tidak terlalu besar */
+    /* background: var(--hover-bg); */
+    background-color: #fff;
+    border: 1px solid black;
+    box-shadow: 0.25rem 0.25rem black;
+    border: 1px solid black;
+    box-shadow: 0.25rem 0.25rem black;
+}
+
+.add-to-cart-qv:active {
+    transform: translate(0);
+    box-shadow: none;
+}
+
+.cart-icon-img {
+    width: 20px;
+    height: auto;
+    margin-bottom: -4px;
+    position: relative;
+}
