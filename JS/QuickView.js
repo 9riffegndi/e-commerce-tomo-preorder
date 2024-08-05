@@ -64,6 +64,11 @@ document.addEventListener("DOMContentLoaded", checkIntersection);
 // Observe the wrapper
 observer.observe(wrapper);
 
+
+const iklan = document.createElement("div")
+
+console.log(iklan)
+
 function CreateQuickView() {
   const QuickVw = document.createElement("div");
   QuickVw.className = "Quck-view";
@@ -72,15 +77,14 @@ function CreateQuickView() {
         <div class="modal-quickview">
             <div class="container-image-qv">
                 <div class="main-image-gv">
-                    <img src="/src/assets/img/Product/tshirt black/Snapinsta.app_453280628_802748104998549_8744615817919291688_n_1080.jpg" alt="600x600">
-                    <img src="/src/assets/img/Product/tshirt black/Snapinsta.app_453393985_503826938708308_496481487401315919_n_1080.jpg" alt="600x600">
+                    <img src="/src/assets/img/Product/tshirt orange/Snapinsta.app_449502707_1630814214367370_7685554859299244820_n_1080.jpg" alt="600x600">
+                    <img src="/src/assets/img/Product/tshirt orange/Snapinsta.app_449604718_330880110041498_7728777926761481565_n_1080.jpg" alt="600x600">
                 </div>
                 <div class="section-grid-two-image">
-                    <img src="/src/assets/img/Product/tshirt black/front.jpg" alt="298px">
-                    <img src="/src/assets/img/Product/tshirt black/back.jpg" alt="298px">
-                    <img src="/src/assets/img/Product/tshirt black/front.jpg" alt="298px">
-                    <img src="/src/assets/img/Product/tshirt black/back.jpg" alt="298px">
-                
+                    <img src="/src/assets/img/Product/tshirt orange/front .jpg" alt="298px">
+                    <img src="/src/assets/img/Product/tshirt orange/back.jpg" alt="298px">
+                    <img src="/src/assets/img/Product/tshirt orange/front .jpg" alt="298px">
+                    <img src="/src/assets/img/Product/tshirt orange/back.jpg" alt="298px">
                     <!-- additional img -->
                 </div>
             </div>
@@ -146,12 +150,11 @@ function CreateQuickView() {
                         <button class="add-to-cart-qv"><span>ADD TO CART</span>
                             <img src="/src/assets/Icon/bag.png" alt="Cart-icon" class="cart-icon-img"></button>
                     </div>
-                    <button class="buy-it"><span>BUY IT</span></button>
+                        <button class="buy-it"><span>BUY IT</span></button>
                 </div>
             </div>
             </div>
         </div>
-    </div>
-    `;
+    </div>    `;
   return QuickVw;
 }

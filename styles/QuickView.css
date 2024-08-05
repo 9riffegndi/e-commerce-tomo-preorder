@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     /* background-color: aqua; */
+    border-bottom: 1px black solid;
     padding: 10px;
 }
 
@@ -45,6 +46,7 @@
 
 .section-grid-two-image img {
     width: 100%;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.063);
     height: 100%;
     /* Atau 'auto' jika gambar harus menjaga rasio */
     object-fit: cover;
@@ -143,11 +145,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 4px;
-
-    background-color: transparent;
+    /* background-color: red; */
     box-sizing: border-box;
     /* padding: 0.25rem; */
-    width: 70%;
+    width: 100%;
     font-size: 14px;
 }
 
@@ -164,7 +165,8 @@
 
 .wrapper-input-size-qv .radio .size {
     display: flex;
-    height: 30px;
+    height: 25px;
+
     font-weight: 600;
     cursor: pointer;
     align-items: center;
@@ -241,6 +243,7 @@ input[type="number"] {
 .buy-it {
     /* position: relative; */
     /* --bg: black; */
+    height: 50px;
     transform-origin: center;
     /* --hover-bg: #ffffff; */
     /* --hover-text: #000; */
@@ -250,7 +253,7 @@ input[type="number"] {
     width: 100%;
     text-decoration: none;
     cursor: pointer;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     padding: 0.8em 2em;
     transition: 0.4s;
 }
@@ -277,7 +280,7 @@ input[type="number"] {
 
 .add-to-cart-qv {
     transform-origin: center;
-    width: 70%;
+    width: 100%;
     /* position: relative; */
     /* --bg: black; */
     /* --hover-bg: #ffffff; */
