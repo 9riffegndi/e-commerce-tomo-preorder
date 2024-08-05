@@ -110,8 +110,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // ------------------------------//
 });
 
-
-
 // ------------------------------//
 // Navbar Structure              //
 // ------------------------------//
@@ -170,14 +168,16 @@ function CreateNavbar() {
                                     <button>&times;</button>
                                 </div>
                             </div>
-                            <section class="login-container">
+                            <div class="login-container">
                                 <div class="login-header-p">
                                     <p>LOGIN</p>
                                     <p>Login first to select your shipping address</p>
                                 </div>
-                                <!-- <button class="addres-modal-login">Login </button> -->
-                                <a  class="addres-modal-login" href="/pages/Login.html">Login</a>
-                            </section>
+                                <div class="container-addres-modal-button-login">
+                                  <a  class="addres-modal-login" href="/pages/Login.html">Login</a>
+                                </div>
+                            </div>
+
                             <hr>
                             <p><strong>Do you want to use another way?</strong></p>
                             <div class="parent-container-search-addres">

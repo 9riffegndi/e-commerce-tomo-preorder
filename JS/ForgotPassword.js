@@ -15,7 +15,7 @@ function CreateForgotPassword() {
         </div>
         <div class="Container-Input-forgot-password">
             <input type="email" name="email" placeholder="Email Address" required>
-            <button class="button"type="submit">SIGN IN</button>
+            <button class="button"type="submit">SUBMIT</button>
         </div>
         <div class="Option-account">
             <p><a href="/pages/Login.html">Cancel back to Login</a></p>
