@@ -28,7 +28,7 @@ function createLoginForm() {
       </div>
       <div class="Option-account">
         <p><strong>Don't have an account? </strong><a href="/pages/Registration.html">Create an account</a></p>
-        <p><a href="#">Forgot your password?</a></p>
+        <p><a href="/pages/ForgotPassword.html">Forgot your password?</a></p>
       </div>
     </div>
   `;
