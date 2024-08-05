@@ -113,6 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // ------------------------------//
 // Navbar Structure              //
 // ------------------------------//
+
 function CreateNavbar() {
   const Navbar = document.createElement("nav");
   Navbar.className = "Navbar";
@@ -177,7 +178,6 @@ function CreateNavbar() {
                                   <a  class="addres-modal-login" href="/pages/Login.html">Login</a>
                                 </div>
                             </div>
-
                             <hr>
                             <p><strong>Do you want to use another way?</strong></p>
                             <div class="parent-container-search-addres">
@@ -223,7 +223,7 @@ function CreateNavbar() {
                 </div>
             </li>
         </ul>
-                            `;
+        `;
   return Navbar;
 }
 // ------------------------------//

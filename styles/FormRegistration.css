@@ -1,8 +1,19 @@
+.PopUpADS {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.PopUpADS ul {
+    display: flex;
+    gap: 50px;
+}
+
 .RegistrationForm {
     /* width: 600px; */
     height: 500px;
     position: relative;
-    margin-top: 100px;
+    margin-top: -50px;
     align-items: center;
     display: flex;
     width: 100%;
@@ -38,7 +49,6 @@
     justify-content: center;
 }
 
-
 .container-input-name input {
     /* background-color: aqua; */
     border-radius: 1px;
@@ -51,14 +61,12 @@
     padding-left: 10px;
     /* margin: 0 2px 0px 0px; */
     /* width: 30px; */
-
 }
 
 .container-input-email-and-password {
     /* background-color: blue; */
     display: grid;
 }
-
 
 .container-input-email-and-password input {
     /* background-color: aqua; */
@@ -74,7 +82,6 @@
     /* margin-bottom:0px; */
 }
 
-
 /* inspired form gumroad website */
 .button {
     margin-top: 10px;
@@ -85,7 +92,7 @@
     cursor: pointer;
     border: 1px solid var(--bg);
     /* border-radius: 4px; */
-    font-weight:bold;
+    font-weight: bold;
     padding: 0.8em 2em;
     background: var(--bg);
     transition: 0.2s;
@@ -102,8 +109,6 @@
     transform: translate(0);
     box-shadow: none;
 }
-
-
 
 .Option-account {
     /* background-color: aqua; */

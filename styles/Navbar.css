@@ -1,3 +1,30 @@
+.PopUpADS {
+  background-color: black;
+  margin-top: 110px;
+  color: white;
+  display: flex;
+}
+
+.PopUpADS ul {
+  display: flex;
+  gap: 50px;
+}
+
+.scroll-left {
+  display: inline-block;
+  animation: scroll-left 10s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 /* NAVBAR */
 .Navbar {
   width: 100%;
