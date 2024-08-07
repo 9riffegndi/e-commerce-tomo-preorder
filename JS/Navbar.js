@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   //  END DOM NAVBAR               //
   // ------------------------------//
   // ------------------------------//
-  //  Mini Cart Overlay Function    //
+  //  Mini Cart Overlay Function   //
   // ------------------------------//
 
   // Mengambil elemen yang dibutuhkan untuk mini cart
@@ -123,8 +123,8 @@ function CreateNavbar() {
             <li class="nav-item">
                 <a href="#" class="nav-link">CATEGORIES</a>
                 <div class="submenu-Category">
-                    <a href="#" class="nav-link">Hoodie</a>
-                    <a href="#" class="nav-link">T-shirt</a>
+                    <a href="/pages/Categories/Hoodie.html" class="nav-link">Hoodie</a>
+                    <a href="/pages/Categories/Tshirt.html" class="nav-link">T-shirt</a>
                 </div>
             </li>
             <li class="nav-item logo">

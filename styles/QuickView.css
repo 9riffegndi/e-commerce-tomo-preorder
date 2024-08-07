@@ -58,8 +58,8 @@
     position: fixed;
     height: max-content;
     /* background-color: aquamarine; */
-    margin-top: -25px;
-    transition: opacity ease-in-out 0.1s, visibility ease-in 0.2s;
+    margin-top: -30px;
+    /* transition: opacity ease-in-out 0.1s, visibility ease-in 0.2s; */
 }
 
 .parent-container-description-product-qv {
@@ -83,12 +83,12 @@
 .title-product-name-qv p {
     font-size: 40px;
     letter-spacing: 5px;
-    margin-top: -10px;
+    margin-top: -30px;
 }
 
 
 .price-diskon-status-qv {
-    margin-top: -60px;
+    margin-top: -80px;
     display: flex;
     gap: 10px;
 }
@@ -129,8 +129,8 @@
 
 .text-description {
     width: 100%;
-    margin-top: -30px;
-    height: max-content;
+    margin-top: -40px;
+    height: 200px;
     /* background-color: black; */
 }
 
@@ -144,6 +144,7 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    margin-top: -20px;
     gap: 4px;
     /* background-color: red; */
     box-sizing: border-box;

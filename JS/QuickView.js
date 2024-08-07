@@ -112,8 +112,6 @@ function CreateQuickView() {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nullam imperdiet risus a sapien gravida, sit amet venenatis felis gravida.
                             Praesent euismod turpis at erat tempor, ac tempor odio feugiat.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Nullam imperdiet risus a sapien gravida, sit amet venenatis felis gravida.
-                            Praesent euismod turpis at erat tempor, ac tempor odio feugiat.
                         </p>
                     </div>
                     <div class="wrapper-input-size-qv">

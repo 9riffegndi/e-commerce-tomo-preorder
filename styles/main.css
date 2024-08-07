@@ -5,4 +5,33 @@ body {
   align-items: center;
   width: auto;
   height: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+/* scroll bar */
+
+body {
+  --sb-track-color: #888888;
+  --sb-thumb-color: #2f2f2f;
+  --sb-size: 14px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 1px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 1px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
 }
