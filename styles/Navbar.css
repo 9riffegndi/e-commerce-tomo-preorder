@@ -94,7 +94,7 @@
   }
 
   .icon-address {
-    width: 15px;
+    width: 20px;
     height: auto;
   }
 
@@ -565,20 +565,19 @@
     display: flex;
   }
 
+
+
   .Item-cart-count {
-    display: inline-block;
-    /* text-align: center; */
-    background-color: black;
-    padding: 5px;
-    width: max-content;
     text-align: center;
-    align-items: center;
+    background-color: black;
+    /* padding: 5px; */
     justify-content: center;
-    margin: 17px 19px 9px  ;
+    margin: 25px 19px 9px;
     font-size: 10px;
-    width: 14px;
+    width:7px;
     position: absolute;
-    height: 15px;
+    /* height: 10px; */
+    padding: 0px 4px 0px 4px;
     border-radius: 100%;
     color: white;
   }
