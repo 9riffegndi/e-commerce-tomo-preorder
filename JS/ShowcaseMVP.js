@@ -13,6 +13,19 @@ document.addEventListener("DOMContentLoaded", () => {
   // END Menginisialisasi slideshow produk
 });
 
+// ShowcaseMvp.js
+document.addEventListener("DOMContentLoaded", function () {
+  const addToCartButton = document.querySelector(".add-to-cart");
+  if (addToCartButton) {
+    addToCartButton.addEventListener("click", function () {
+      // Panggil fungsi addToCart yang didefinisikan di Navbar.js
+      if (typeof window.addToCart === "function") {
+        window.addToCart();
+      }
+    });
+  }
+});
+
 // ------------------------------//
 // Mvp Product Showcase Structure//
 // ------------------------------//

@@ -35,6 +35,25 @@ document.addEventListener("DOMContentLoaded", () => {
       miniCartOverlay.style.display = "none"; // Menyembunyikan overlay mini cart
     }
   });
+
+  // Navbar.js
+  let cartCount = 0;
+
+  function updateCartCount() {
+    const cartCountElement = document.querySelector(".Item-cart-count");
+    if (cartCountElement) {
+      cartCountElement.textContent = cartCount;
+    }
+  }
+
+  // Ekspos fungsi untuk menambah item ke keranjang
+  window.addToCart = function () {
+    cartCount++;
+    updateCartCount();
+  };
+
+  // Inisialisasi penghitung saat halaman dimuat
+  document.addEventListener("DOMContentLoaded", updateCartCount);
   // ------------------------------//
   //  END Mini Cart Overlay Function//
   // ------------------------------//

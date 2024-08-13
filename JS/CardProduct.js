@@ -56,7 +56,7 @@ function CreateCardProduct() {
                             alt="card product image size 300x300"
                         />
                         </a>
-                        <a href="#">
+                        <a href="/pages/QuickView.html">
                         <img
                             class="secondary-card-product-image"
                             src="/src/assets/img/Product/tshirt green/back.jpg"
@@ -81,7 +81,7 @@ function CreateCardProduct() {
                             alt="card product image size 300x300"
                         />
                         </a>
-                        <a href="#">
+                        <a href="/pages/QuickView.html">
                         <img
                             class="secondary-card-product-image"
                             src="/src/assets/img/Product/tshirt red/back.jpg"
@@ -106,7 +106,7 @@ function CreateCardProduct() {
                             alt="card product image size 300x300"
                         />
                         </a>
-                        <a href="#">
+                        <a href="/pages/QuickView.html">
                         <img
                             class="secondary-card-product-image"
                             src="/src/assets/img/Product/tshirt black/back.jpg"
@@ -131,7 +131,7 @@ function CreateCardProduct() {
                             alt="card product image size 300x300"
                         />
                         </a>
-                        <a href="#">
+                        <a href="/pages/QuickView.html">
                         <img
                             class="secondary-card-product-image"
                             src="/src/assets/img/Product/tshirt white/3/back.jpg"
@@ -147,12 +147,12 @@ function CreateCardProduct() {
                         <div class="product-price">Rp 75.000</div>
                     </div>
                     </div>
-                                    <div class="container-card-product">
+                    <div class="container-card-product">
                     <div>
                         <a href="">
                             <img class="primary-card-product-image" src="/src/assets/img/Product/hoodie/blue front.jpg" alt="card product image size 300x300">
                         </a>
-                        <a href="#">
+                        <a href="/pages/QuickView.html">
                             <img class="secondary-card-product-image" src="/src/assets/img/Product/hoodie/blue back.jpg" alt="card product image size 300x300">
                         </a>
                     </div>
@@ -169,7 +169,7 @@ function CreateCardProduct() {
                         <a href="">
                             <img class="primary-card-product-image" src="/src/assets/img/Product/hoodie/darkbrown front.jpg" alt="card product image size 300x300">
                         </a>
-                        <a href="#">
+                        <a href="/pages/QuickView.html">
                             <img class="secondary-card-product-image" src="/src/assets/img/Product/hoodie/darkbrown back.jpg" alt="card product image size 300x300">
                         </a>
                     </div>
@@ -186,7 +186,7 @@ function CreateCardProduct() {
                         <a href="">
                             <img class="primary-card-product-image" src="/src/assets/img/Product/hoodie/green army front.jpg" alt="card product image size 300x300">
                         </a>
-                        <a href="#">
+                        <a href="/pages/QuickView.html">
                             <img class="secondary-card-product-image" src="/src/assets/img/Product/hoodie/green army back.jpg" alt="card product image size 300x300">
                         </a>
                     </div>
@@ -203,7 +203,7 @@ function CreateCardProduct() {
                         <a href="">
                             <img class="primary-card-product-image" src="/src/assets/img/Product/hoodie/black front.png" alt="card product image size 300x300">
                         </a>
-                        <a href="#">
+                        <a href="/pages/QuickView.html">
                             <img class="secondary-card-product-image" src="/src/assets/img/Product/hoodie/black back.png" alt="card product image size 300x300">
                         </a>
                     </div>
@@ -220,7 +220,7 @@ function CreateCardProduct() {
                         <a href="">
                             <img class="primary-card-product-image" src="/src/assets/img/Product/hoodie/sage front.jpg" alt="card product image size 300x300">
                         </a>
-                        <a href="#">
+                        <a href="/pages/QuickView.html">
                             <img class="secondary-card-product-image" src="/src/assets/img/Product/hoodie/sage back.jpg" alt="card product image size 300x300">
                         </a>
                     </div>
@@ -241,7 +241,7 @@ function CreateCardProduct() {
                             alt="card product image size 300x300"
                         />
                         </a>
-                        <a href="#">
+                        <a href="/pages/QuickView.html">
                         <img
                             class="secondary-card-product-image"
                             src="/src/assets/img/Product/tshirt white/2/back.jpg"
@@ -266,7 +266,7 @@ function CreateCardProduct() {
                             alt="card product image size 300x300"
                         />
                         </a>
-                        <a href="#">
+                        <a href="/pages/QuickView.html">
                         <img
                             class="secondary-card-product-image"
                             src="/src/assets/img/Product/tshirt brown/backl.jpg"
@@ -291,7 +291,7 @@ function CreateCardProduct() {
                             alt="card product image size 300x300"
                         />
                     </a>
-                    <a href="#">
+                    <a href="/pages/QuickView.html">
                         <img
                             class="secondary-card-product-image"
                             src="/src/assets/img/Product/tshirt blue/back.jpg"
@@ -316,7 +316,7 @@ function CreateCardProduct() {
                             alt="card product image size 300x300"
                         />
                     </a>
-                    <a href="#">
+                    <a href="/pages/QuickView.html">
                         <img
                             class="secondary-card-product-image"
                             src="/src/assets/img/Product/tshirt yellow/back.jpg"
@@ -341,7 +341,7 @@ function CreateCardProduct() {
                             alt="card product image size 300x300"
                         />
                     </a>
-                    <a href="#">
+                        <a href="/pages/QuickView.html">
                         <img
                             class="secondary-card-product-image"
                             src="/src/assets/img/Product/tshirt charchoal/back.jpg"

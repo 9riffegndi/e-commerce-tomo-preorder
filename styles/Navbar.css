@@ -29,7 +29,6 @@
   .Navbar {
     width: 100%;
     position: fixed;
-    padding: 0px;
     top: -20px;
     z-index: 120;
     background-color: white;
@@ -51,7 +50,7 @@
   }
 
   .nav-item {
-    margin: 0 10px;
+    margin: 0 30px;
     position: relative;
   }
 
@@ -498,9 +497,6 @@
     display: block;
   }
 
-
-
-
   /* Mini Cart Styles NAV */
   .mini-cart-overlay {
     display: none;
@@ -565,16 +561,16 @@
     display: flex;
   }
 
-
-
   .Item-cart-count {
+    min-width: 7px;
+    max-width: max-content;
+    max-height: max-content;
     text-align: center;
     background-color: black;
     /* padding: 5px; */
     justify-content: center;
     margin: 25px 19px 9px;
     font-size: 10px;
-    width:7px;
     position: absolute;
     /* height: 10px; */
     padding: 0px 4px 0px 4px;

@@ -28,14 +28,14 @@ function CreateFooter() {
                 </div>
                 <div class="footer-content2">
                     <ul class="footer-list1">
-                        <li class="fot-item1"><h3>Brand In: Indonesia</h3></li>
-                        <li class="fot-item1"><h3>Region: DIY, Yogyakarta</h3></li>
+                        <li class="fot-item1">Brand In: Indonesia</li>
+                        <li class="fot-item1">Region: DIY, Yogyakarta</li>
                         <li class="fot-item1"><a href="#" class="fot-link1">Feedback</a></li>
                     </ul>
                 </div>
                 <section class="footer-social-media">
                     <div class="footer-social-media-follow-block">
-                        <h3 class="footer-social-media-follow-title">Follow Us</h3>
+                        <p class="footer-social-media-follow-title">Follow Us</p>
                         <ul class="Follow-us-list">
                             <li class="instagram">
                                 <a href="https://www.instagram.com/" class="Instatagram-link">
@@ -49,7 +49,7 @@ function CreateFooter() {
                             </li>
                             <li class="Tokopedia">
                                 <a href="#" class="Tokopedia-link">
-                                    Instagram<img src="/src/assets/Icon/tokopedia.png" alt="Tokopedia-icon" class="icon-Tokopedia">
+                                    Tokopedia<img src="/src/assets/Icon/tokopedia.png" alt="Tokopedia-icon" class="icon-Tokopedia">
                                 </a>
                             </li>
                             <!-- Additional social media links here -->
