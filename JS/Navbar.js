@@ -134,8 +134,10 @@ function CreateNavbar() {
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link cart-icon">
-                    <img src="/src/assets/Icon/bag.png" alt="Cart-icon" class="icon-cart">
-                    <span class="Item-cart-count">0</span>
+                <div class="container-cart-icon-cart-count">
+                  <img src="/src/assets/Icon/bag.png" alt="Cart-icon" class="icon-cart">
+                  <span class="Item-cart-count">0</span>
+                </div>
                 </a>
                 <div class="mini-cart-overlay">
                     <div class="mini-cart">
