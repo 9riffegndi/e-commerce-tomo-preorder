@@ -13,18 +13,22 @@ document.addEventListener("DOMContentLoaded", () => {
   // END Menginisialisasi slideshow produk
 });
 
-// ShowcaseMvp.js
+// ------------------------------//
+// add-to-cart Function          //
+// ------------------------------//
 document.addEventListener("DOMContentLoaded", function () {
-  const addToCartButton = document.querySelector(".add-to-cart");
-  if (addToCartButton) {
-    addToCartButton.addEventListener("click", function () {
-      // Panggil fungsi addToCart yang didefinisikan di Navbar.js
+  const addToCartButtons = document.querySelectorAll(".add-to-cart");
+  addToCartButtons.forEach((button) => {
+    button.addEventListener("click", function () {
       if (typeof window.addToCart === "function") {
         window.addToCart();
       }
     });
-  }
+  });
 });
+// ------------------------------//
+// END add-to-cart Function      //
+// ------------------------------//
 
 // ------------------------------//
 // Mvp Product Showcase Structure//

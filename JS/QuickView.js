@@ -37,6 +37,23 @@ document.addEventListener("DOMContentLoaded", () => {
   // ------------------------------//
 });
 
+// ------------------------------//
+// add-to-cart Function          //
+// ------------------------------//
+document.addEventListener("DOMContentLoaded", function () {
+  const addToCartButtons = document.querySelectorAll(".add-to-cart-qv");
+  addToCartButtons.forEach((button) => {
+    button.addEventListener("click", function () {
+      if (typeof window.addToCart === "function") {
+        window.addToCart();
+      }
+    });
+  });
+});
+// ------------------------------//
+// END add-to-cart Function      //
+// ------------------------------//
+
 function checkIntersection() {
   const wrapper = document.querySelector(
     ".wrapper-container-description-product-qv"
@@ -63,11 +80,6 @@ document.addEventListener("DOMContentLoaded", checkIntersection);
 
 // Observe the wrapper
 observer.observe(wrapper);
-
-
-const iklan = document.createElement("div")
-
-console.log(iklan)
 
 function CreateQuickView() {
   const QuickVw = document.createElement("div");
