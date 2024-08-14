@@ -42,9 +42,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // ------------------------------//
   // Item-cart-count Function      //
   // ------------------------------//
-  // Navbar.js
+  
   let cartCount = 0;
-
   function updateCartCount() {
     const cartCountElements = document.querySelectorAll(".Item-cart-count");
     cartCountElements.forEach((element) => {

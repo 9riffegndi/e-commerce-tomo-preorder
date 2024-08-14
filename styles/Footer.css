@@ -17,9 +17,9 @@
   /* background-color: white;  */
   display: flex;
   align-items: center;
-  padding-bottom: 200px;
+  /* padding-bottom: 200px; */
   bottom: 0;
-  justify-content: flex-end;
+  justify-content: center;
   /* background-color: blue; */
 }
 
@@ -29,6 +29,7 @@
   height: auto;
   font-weight: 200px;
   font-size: medium;
+  /* background-color: aqua; */
   list-style-type: none;
   margin: 10px;
   /* background-color: aqua; */
@@ -48,6 +49,7 @@
   /* background-color: aqua; */
   font-size: medium;
   font-weight: 200px;
+  /* background-color: aqua; */
   /* font-weight: bold; */
   position: relative;
   overflow: hidden;
@@ -75,21 +77,24 @@
 /* Footer Social Media Links */
 .footer-social-media {
   position: relative;
-  width: 52%;
+  /* background-color: rebeccapurple; */
+  /* width: 52%; */
   height: 50%;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   display: flex;
   justify-content: flex-start;
 }
 
 .footer-social-media-follow-block {
   text-align: left;
+  margin-top: -50px;
 }
 
 .footer-social-media-follow-title {
   font-size: 24px;
   font-weight: 500;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  /* background-color: antiquewhite; */
   color: black;
 }
 
@@ -110,7 +115,7 @@
 .Follow-us-list a {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: medium;
   display: flex;
   align-items: center;
   gap: 10px;
