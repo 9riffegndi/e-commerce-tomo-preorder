@@ -24,7 +24,6 @@
 
 
 .Container-sz-guide-tshirt {
-    /* background-color: red; */
     width: 100%;
     place-items: center;
     display: flex;
@@ -32,8 +31,11 @@
 }
 
 
+.wrapper-table-sz-guide {
+    width: 1000px;
+}
+
 .Container-sz-guide-tshirt h4 {
-    /* background-color: aquamarine; */
     font-size: 30px;
     font-weight: 420;
     text-decoration: underline;
@@ -42,19 +44,19 @@
 }
 
 
-
 th,
 td {
+
     border: 1px solid #b3b3b3;
     padding: 10px 40px 10px 30px;
-    width: 250px;
+    width: 100%;
+    font-size: 14px;
     text-align: center;
 }
 
 th {
     background-color: black;
     color: white;
-    font-weight: bold;
 }
 
 
@@ -67,4 +69,11 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: #ffffff;
     /* Warna latar belakang untuk baris ganjil */
+}
+
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    /* Pastikan semua kolom memiliki lebar yang sama */
 }
