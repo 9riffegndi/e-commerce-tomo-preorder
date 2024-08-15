@@ -21,7 +21,7 @@ function CreateFooter() {
             <div class="footer-content">
                 <div class="footer-content1">
                     <ul class="footer-list1">
-                        <li class="fot-item1"><a href="#" class="fot-link1">Shopping Rules</a></li>
+                        <li class="fot-item1"><a href="/pages/Shoppingandreturnpolicy.html" class="fot-link1">Shopping and Return Policy</a></li>
                         <li class="fot-item1"><a href="/pages/SizeGuide.html" class="fot-link1">Size Guides</a></li>
                         <li class="fot-item1"><a href="#" class="fot-link1">Privacy Policy</a></li>
                     </ul>
