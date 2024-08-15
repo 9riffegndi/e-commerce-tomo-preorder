@@ -38,8 +38,8 @@
 }
 
 .fot-item1 {
-  padding: 10px 0;
-  margin: 0;
+  padding: 10px;
+
 }
 
 
@@ -77,17 +77,16 @@
 /* Footer Social Media Links */
 .footer-social-media {
   position: relative;
+  margin-top: -55px;
   /* background-color: rebeccapurple; */
   /* width: 52%; */
   height: 50%;
   /* margin-left: 10px; */
   display: flex;
-  justify-content: flex-start;
 }
 
 .footer-social-media-follow-block {
   text-align: left;
-  margin-top: -50px;
 }
 
 .footer-social-media-follow-title {
@@ -126,7 +125,7 @@
 .Follow-us-list a::before {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   left: 0;
   width: 100%;
   height: 2px;
