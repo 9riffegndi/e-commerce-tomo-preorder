@@ -13,6 +13,9 @@ function CreateSizeGuide() {
     </div>
     <div class="Container-sz-guide-tshirt">
       <div class="wrapper-table-sz-guide">
+        <div class="container-img-size">
+        <img src="/src/assets/img/Product/Size Guide.png" alt="Size Guide img">
+      </div>
         <h4>T-shirt Category</h4>
         <table>
         <thead>
@@ -27,7 +30,7 @@ function CreateSizeGuide() {
         </thead>
         <tbody>
           <tr>
-            <td>Length</td>
+            <td class="highlight-color-th">Length</td>
             <td>70</td>
             <td>72</td>
             <td>74</td>
@@ -35,7 +38,7 @@ function CreateSizeGuide() {
             <td>78</td>
           </tr>
           <tr>
-            <td>Hand Length</td>
+            <td class="highlight-color-th">Hand Length</td>
             <td>9</td>
             <td>11</td>
             <td>13</td>
@@ -43,7 +46,7 @@ function CreateSizeGuide() {
             <td>17</td>
           </tr>
           <tr>
-            <td>Width</td>
+            <td class="highlight-color-th">Width</td>
             <td>24</td>
             <td>26</td>
             <td>28</td>
@@ -66,7 +69,7 @@ function CreateSizeGuide() {
         </thead>
         <tbody>
           <tr>
-            <td>Length</td>
+            <td class="highlight-color-th">Length</td>
             <td>70</td>
             <td>72</td>
             <td>74</td>
@@ -74,7 +77,7 @@ function CreateSizeGuide() {
             <td>78</td>
           </tr>
           <tr>
-            <td>Hand Length</td>
+            <td class="highlight-color-th">Hand Length</td>
             <td>9</td>
             <td>11</td>
             <td>13</td>
@@ -82,7 +85,7 @@ function CreateSizeGuide() {
             <td>17</td>
           </tr>
           <tr>
-            <td>Width</td>
+            <td class="highlight-color-th">Width</td>
             <td>24</td>
             <td>26</td>
             <td>28</td>

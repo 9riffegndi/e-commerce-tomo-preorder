@@ -10,7 +10,7 @@ function CreateRegistrationForm() {
   FormRegis.innerHTML = `
     <div class="Wrapper-form-registration">
         <div class="Container-Header">
-            <h1>Registration</h1>
+            <h1>REGISTRATION</h1>
             <p>Enter your information below to proceed. If you already have an account, please log in instead.</p>
         </div>
         <div class="container-input-name">

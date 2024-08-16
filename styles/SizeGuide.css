@@ -1,6 +1,7 @@
 .SizeGuides {
     /* background-color: blueviolet; */
     width: 100%;
+    margin-top:-30px;
     align-items: center;
     justify-content: center;
     height: max-content;
@@ -24,6 +25,7 @@
 
 .Container-sz-guide-tshirt {
     width: 100%;
+    /* background-color: aqua; */
     place-items: center;
     display: flex;
     flex-direction: column;
@@ -59,20 +61,28 @@ th {
 }
 
 
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-    /* Warna latar belakang untuk baris genap */
+.highlight-color-th {
+    background-color: rgb(79, 79, 79);
+    color: white;
+    font-weight: bold;
 }
-
-/* Warna belang untuk baris ganjil */
-tr:nth-child(odd) {
-    background-color: #ffffff;
-    /* Warna latar belakang untuk baris ganjil */
-}
-
 
 table {
     width: 100%;
     table-layout: fixed;
     /* Pastikan semua kolom memiliki lebar yang sama */
+}
+
+
+.container-img-size {
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.container-img-size img {
+    width: 80%;
+    height: 300px;
 }
