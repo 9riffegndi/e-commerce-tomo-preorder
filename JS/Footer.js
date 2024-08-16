@@ -23,14 +23,14 @@ function CreateFooter() {
                     <ul class="footer-list1">
                         <li class="fot-item1"><a href="/pages/Shoppingandreturnpolicy.html" class="fot-link1">Shopping and Return Policy</a></li>
                         <li class="fot-item1"><a href="/pages/SizeGuide.html" class="fot-link1">Size Guides</a></li>
-                        <li class="fot-item1"><a href="#" class="fot-link1">Privacy Policy</a></li>
+                        <li class="fot-item1"><a href="/pages/PrivacyPolicy.html" class="fot-link1">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="footer-content1">
                     <ul class="footer-list1">
                         <li class="fot-item1">Brand In: Indonesia</li>
                         <li class="fot-item1">Region: DIY, Yogyakarta</li>
-                        <li class="fot-item1"><a href="#" class="fot-link1">Feedback</a></li>
+                        <li class="fot-item1"><a href="/pages/Feedback.html" class="fot-link1">Feedback</a></li>
                     </ul>
                 </div>
                 <section class="footer-social-media">

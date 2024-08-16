@@ -1,0 +1,118 @@
+.PopUpADS {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.PopUpADS ul {
+    display: flex;
+    gap: 50px;
+}
+
+.Form-Feedback {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* background-color: aqua; */
+    width: 100%;
+    height: max-content;
+    /* padding: 20px; */
+}
+
+.Wrapper-feedback-form {
+    /* background-color: gray; */
+    padding-top: 50px;
+    height: auto;
+    /* margin-bottom: -20px; */
+    /* padding: 120px;    */
+    width: auto;
+}
+
+.Container-Header {
+    width: 100%;
+    /* background-color: violet; */
+    position: relative;
+    text-align: center;
+    font: bold;
+    width: 600px;
+    /* bottom: 120px; */
+    align-items: center;
+}
+
+.Container-Input-form-fb {
+    /* background-color: blue; */
+    /* margin-top: -130px; */
+    /* padding : 0px 0px 40px 0px; */
+    /* width: 100%;     */
+    /* margin: 20px; */
+    /* justify-content: center; */
+    /* height: max-content; */
+    display: grid;
+}
+
+
+.Container-Input-form-fb input {
+    /* background-color: red; */
+    border-radius: 1px;
+    padding-left: 10px;
+    height: 40px;
+    border: 1px black solid;
+    /* outline: gray 2px;    */
+    /* margin: 10px; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 600px;
+    /* margin-bottom:0px; */
+}
+
+/* inspired form gumroad website */
+.Container-Input-form-fb button {
+    margin-top: 170px;
+    --bg: black;
+    --hover-bg: white;
+    width: 100%;
+    --hover-text: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid var(--bg);
+    /* border-radius: 4px; */
+    font-weight: bold;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+}
+
+
+.Container-Input-form-fb button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.Container-Input-form-fb button:active {
+    transform: translate(0);
+    box-shadow: none;
+}
+
+
+
+
+.comment-feedback {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    width: 615px;
+    height: 130px;
+    position: absolute;
+    margin-top: 300px;
+}
+
+.comment-feedback textarea {
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    text-align: justify;
+
+}
