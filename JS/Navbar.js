@@ -141,7 +141,7 @@ function CreateNavbar() {
   Navbar.className = "Navbar";
   Navbar.innerHTML = `
 <ul class="nav-list">
-            <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
+            <li class="nav-item"><a href="/pages/About.html" class="nav-link">ABOUT</a></li>
             <li class="nav-item">
                 <a href="#" class="nav-link">CATEGORIES</a>
                 <div class="submenu-Category">
