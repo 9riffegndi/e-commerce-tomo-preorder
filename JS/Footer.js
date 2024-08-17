@@ -43,12 +43,12 @@ function CreateFooter() {
                                 </a>
                             </li>
                             <li class="TiktokShop">
-                                <a href="#" class="Tiktok-link">
+                                <a href="https://www.tiktok.com/" class="Tiktok-link">
                                     <img src="/src/assets/Icon/tik-tok.png" alt="Tiktok-icon" class="icon-Tiktok">
                                 </a>
                             </li>
                             <li class="Tokopedia">
-                                <a href="#" class="Tokopedia-link">
+                                <a href="https://www.tokopedia.com/" class="Tokopedia-link">
                                     <img src="/src/assets/Icon/tokopedia.png" alt="Tokopedia-icon" class="icon-Tokopedia">
                                 </a>
                             </li>
