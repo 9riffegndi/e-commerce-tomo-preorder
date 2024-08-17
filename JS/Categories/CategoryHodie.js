@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Card Product                  //
   // ------------------------------//
   const CategoryHodieJS = document.getElementById("CategoryHodieJS");
-  const CategoryHodie = CreateCategoryHodie();
+  const CategoryHodie = CreateCategoryTshirt();
   CategoryHodieJS.appendChild(CategoryHodie);
   // ------------------------------//
   // END Card Product              //
@@ -13,10 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
 // ------------------------------//
 // Card Product Structure        //
 // ------------------------------//
-function CreateCategoryHodie() {
-  const CardProduct = document.createElement("div");
-  CardProduct.className = "overlay-category-hodie";
-  CardProduct.innerHTML = `  
+function CreateCategoryTshirt() {
+  const CatHodie = document.createElement("div");
+  CatHodie.className = "overlay-category-hodie";
+  CatHodie.innerHTML = `  
         <div class="header-card-title">
             <p>CATAGORIES</p>
             <h1>HOODIE</h1>
@@ -111,7 +111,7 @@ function CreateCategoryHodie() {
             </div>
         </div>
             `;
-  return CardProduct;
+  return CatHodie;
 }
 // ----------------------------------//
 // END Card Product Structure        //
