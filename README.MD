@@ -1,7 +1,7 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
 <p align="center">
-<img width="60" height="68" alt="Tomo Logo" src="/src/assets/Logo/TOMO LOGOS.png"/>
+<img width="200px" height="200px" alt="Tomo Logo" src="/src/assets/Logo/TOMO LOGOS.png"/>
 </p>
 
 <p align="center">
