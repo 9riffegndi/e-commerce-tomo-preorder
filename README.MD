@@ -8,6 +8,10 @@
   <h1 align="center">TOMOS</h1>
 </p>
 
+<p align="center" style="background-color: white; padding: 20px; display: inline-block;">
+  <img alt="Tomo Logo" src="/src/assets/img/Product/BANNER.png"/>
+</p>
+
 **TOMO E-Commerce Website**
 **NOT RESPONSIVE**
 
