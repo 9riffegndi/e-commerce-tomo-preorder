@@ -1,3 +1,7 @@
+- BAHASA [ID]
+- LANGUAGE [EN]
+
+
 **WEB TOMO E-Commerce Website**
 **NOT RESPONSIVE**
 
@@ -32,180 +36,155 @@ This project is an e-commerce website built using HTML, CSS, and vanilla JavaScr
 **Project Structure**
     Berikut adalah struktur folder proyek ini:
 
-│   README.MD
-│
-├───.vscode
-│       settings.json
-│
-├───JS
-│   │   About.js
-│   │   CardProduct.js
-│   │   Feedback.js
-│   │   Footer.js
-│   │   ForgotPassword.js
-│   │   FormLogin.js
-│   │   FormRegistration.js
-│   │   Navbar.js
-│   │   Payment.js
-│   │   PrivacyPolice.js
-│   │   QuickView.js
-│   │   Shoppingandreturnpolicy.js
-│   │   ShowcaseMVP.js
-│   │   ShowcaseSecondary.js
-│   │   SizeGuide.js
-│   │
-│   └───Categories
-│           CategoryHodie.js
-│           CategoryTshirt.js
-│
-├───pages
-│   │   About.html
-│   │   Feedback.html
-│   │   ForgotPassword.html
-│   │   IndexMVP.html
-│   │   Login.html
-│   │   Payment.html
-│   │   PrivacyPolicy.html
-│   │   QuickView.html
-│   │   Registration.html
-│   │   SecondaryCatalogue.html
-│   │   Shoppingandreturnpolicy.html
-│   │   SizeGuide.html
-│   │
-│   └───Categories
-│           Hoodie.html
-│           Tshirt.html
-│
-├───src
-│   └───assets
-│       ├───Icon
-│       │       add-button-cart.png
-│       │       aim.png
-│       │       bag.png
-│       │       down.png
-│       │       exclamation.png
-│       │       icons8-shopee-500.png
-│       │       instagram.png
-│       │       location.png
-│       │       minus.png
-│       │       plus.png
-│       │       search.png
-│       │       tik-tok.png
-│       │       tokopedia.png
-│       │       user.png
-│       │
-│       ├───img
-│       │   └───Product
-│       │       │   448442433_995704245467919_1098652599690567044_n.jpg
-│       │       │   Mvp Product Hodie.png
-│       │       │   Mvp Product RED.png
-│       │       │   Mvp Product.png
-│       │       │   Size Guide.png
-│       │       │
-│       │       ├───hoodie
-│       │       │       black back.png
-│       │       │       black front.png
-│       │       │       blue back.jpg
-│       │       │       blue front.jpg
-│       │       │       darkbrown back.jpg
-│       │       │       darkbrown front.jpg
-│       │       │       green army back.jpg
-│       │       │       green army front.jpg
-│       │       │       sage back.jpg
-│       │       │       sage front.jpg
-│       │       │
-│       │       ├───showcase
-│       │       │       all collections.png
-│       │       │       black.png
-│       │       │       cream.png
-│       │       │       green.png
-│       │       │       sage.png
-│       │       │       white.png
-│       │       │
-│       │       ├───tshirt black
-│       │       │       back.jpg
-│       │       │       front.jpg
-│       │       │       Snapinsta.app_453280628_802748104998549_8744615817919291688_n_1080.jpg
-│       │       │       Snapinsta.app_453393985_503826938708308_496481487401315919_n_1080.jpg
-│       │       │
-│       │       ├───tshirt blue
-│       │       │       back.jpg
-│       │       │       front.jpg
-│       │       │       Snapinsta.app_446203903_282381954866480_6928208571540710250_n_1080.jpg
-│       │       │       Snapinsta.app_446336190_1430003664547747_4450536794077096967_n_1080.jpg
-│       │       │
-│       │       ├───tshirt brown
-│       │       │       backl.jpg
-│       │       │       front.jpg
-│       │       │
-│       │       ├───tshirt charchoal
-│       │       │       back.jpg
-│       │       │       front.jpg
-│       │       │
-│       │       ├───tshirt cream
-│       │       │       back.jpg
-│       │       │       front .jpg
-│       │       │
-│       │       ├───tshirt green
-│       │       │       back.jpg
-│       │       │       front .jpg
-│       │       │       Snapinsta.app_449289946_348126628308274_216341083194588333_n_1080.jpg
-│       │       │       Snapinsta.app_449364512_383273398088093_1141582855916177912_n_1080.jpg
-│       │       │
-│       │       ├───tshirt orange
-│       │       │       back.jpg
-│       │       │       front .jpg
-│       │       │       Snapinsta.app_449502707_1630814214367370_7685554859299244820_n_1080.jpg
-│       │       │       Snapinsta.app_449604718_330880110041498_7728777926761481565_n_1080.jpg
-│       │       │
-│       │       ├───tshirt red
-│       │       │       back.jpg
-│       │       │       front.jpg
-│       │       │
-│       │       ├───tshirt white
-│       │       │   ├───1
-│       │       │   │       back.jpg
-│       │       │   │       front.jpg
-│       │       │   │       Snapinsta.app_449845879_865713138937807_6369977752730826871_n_1080.jpg
-│       │       │   │       Snapinsta.app_450451361_1934901196963745_5730862200869158526_n_1080.jpg
-│       │       │   │
-│       │       │   ├───2
-│       │       │   │       asdasdSnapinsta.app_453630786_835110295383485_2507957606905011186_n_1080.jpg
-│       │       │   │       back.jpg
-│       │       │   │       front.jpg
-│       │       │   │       Snapinsta.app_453630786_835110295383485_2507957606905011186_n_1080.jpg
-│       │       │   │
-│       │       │   └───3
-│       │       │           back.jpg
-│       │       │           front.jpg
-│       │       │           Snapinsta.app_452528308_518519754031599_1540479909316228227_n_1080.jpg
-│       │       │           Snapinsta.app_452926799_1004734664712625_3205375846147657193_n_1080.jpg
-│       │       │
-│       │       └───tshirt yellow
-│       │               back.jpg
-│       │               front.jpg
-│       │
-│       └───Logo
-│               TOMO LOGOS NOBG.png
-│               TOMO LOGOS.png
-│
-└───styles
-        About.css
-        CardProduct.css
-        CategoryHodie.css
-        CategoryTshirt.css
-        Feedback.css
-        Footer.css
-        ForgotPassword.css
-        FormLogin.css
-        FormRegistration.css
-        main.css
-        Navbar.css
-        PrivacyPolicy.css
-        QuickView.css
-        Shoppingandreturnpolicy.css
-        ShowcaseMVP.css
-        SizeGuide.css
+README.md
+.vscode/
+  - settings.json
+src/
+  - assets/
+    - icons/
+      - add-button-cart.png
+      - aim.png
+      - bag.png
+      - down.png
+      - exclamation.png
+      - icons8-shopee-500.png
+      - instagram.png
+      - location.png
+      - minus.png
+      - plus.png
+      - search.png
+      - tik-tok.png
+      - tokopedia.png
+      - user.png
+    - images/
+      - product/
+        - 448442433_995704245467919_1098652599690567044_n.jpg
+        - Mvp Product Hoodie.png
+        - Mvp Product RED.png
+        - Mvp Product.png
+        - Size Guide.png
+      - hoodies/
+        - black-back.png
+        - black-front.png
+        - blue-back.jpg
+        - blue-front.jpg
+        - darkbrown-back.jpg
+        - darkbrown-front.jpg
+        - green-army-back.jpg
+        - green-army-front.jpg
+        - sage-back.jpg
+        - sage-front.jpg
+      - showcase/
+        - all-collections.png
+        - black.png
+        - cream.png
+        - green.png
+        - sage.png
+        - white.png
+      - tshirts/
+        - black/
+          - back.jpg
+          - front.jpg
+          - Snapinsta.app_453280628_802748104998549_8744615817919291688_n_1080.jpg
+          - Snapinsta.app_453393985_503826938708308_496481487401315919_n_1080.jpg
+        - blue/
+          - back.jpg
+          - front.jpg
+          - Snapinsta.app_446203903_282381954866480_6928208571540710250_n_1080.jpg
+          - Snapinsta.app_446336190_1430003664547747_4450536794077096967_n_1080.jpg
+        - brown/
+          - back.jpg
+          - front.jpg
+        - charcoal/
+          - back.jpg
+          - front.jpg
+        - cream/
+          - back.jpg
+          - front.jpg
+        - green/
+          - back.jpg
+          - front.jpg
+          - Snapinsta.app_449289946_348126628308274_216341083194588333_n_1080.jpg
+          - Snapinsta.app_449364512_383273398088093_1141582855916177912_n_1080.jpg
+        - orange/
+          - back.jpg
+          - front.jpg
+          - Snapinsta.app_449502707_1630814214367370_7685554859299244820_n_1080.jpg
+          - Snapinsta.app_449604718_330880110041498_7728777926761481565_n_1080.jpg
+        - red/
+          - back.jpg
+          - front.jpg
+        - white/
+          - 1/
+            - back.jpg
+            - front.jpg
+            - Snapinsta.app_449845879_865713138937807_6369977752730826871_n_1080.jpg
+            - Snapinsta.app_450451361_1934901196963745_5730862200869158526_n_1080.jpg
+          - 2/
+            - back.jpg
+            - front.jpg
+            - Snapinsta.app_453630786_835110295383485_2507957606905011186_n_1080.jpg
+            - Snapinsta.app_453630786_835110295383485_2507957606905011186_n_1080.jpg
+          - 3/
+            - back.jpg
+            - front.jpg
+            - Snapinsta.app_452528308_518519754031599_1540479909316228227_n_1080.jpg
+            - Snapinsta.app_452926799_1004734664712625_3205375846147657193_n_1080.jpg
+        - yellow/
+          - back.jpg
+          - front.jpg
+  - js/
+    - About.js
+    - CardProduct.js
+    - Feedback.js
+    - Footer.js
+    - ForgotPassword.js
+    - FormLogin.js
+    - FormRegistration.js
+    - Navbar.js
+    - Payment.js
+    - PrivacyPolicy.js
+    - QuickView.js
+    - ShoppingandReturnPolicy.js
+    - ShowcaseMVP.js
+    - ShowcaseSecondary.js
+    - SizeGuide.js
+    - Categories/
+      - CategoryHoodie.js
+      - CategoryTshirt.js
+  - pages/
+    - About.html
+    - Feedback.html
+    - ForgotPassword.html
+    - IndexMVP.html
+    - Login.html
+    - Payment.html
+    - PrivacyPolicy.html
+    - QuickView.html
+    - Registration.html
+    - SecondaryCatalogue.html
+    - ShoppingandReturnPolicy.html
+    - SizeGuide.html
+    - Categories/
+      - Hoodie.html
+      - Tshirt.html
+  - styles/
+    - About.css
+    - CardProduct.css
+    - CategoryHoodie.css
+    - CategoryTshirt.css
+    - Feedback.css
+    - Footer.css
+    - ForgotPassword.css
+    - FormLogin.css
+    - FormRegistration.css
+    - Main.css
+    - Navbar.css
+    - PrivacyPolicy.css
+    - QuickView.css
+    - ShoppingandReturnPolicy.css
+    - ShowcaseMVP.css
+    - SizeGuide.css
 
 ## PRODUCT IMAGE SOURCE 
 - IG: https://www.instagram.com/snazzyflip.std/ 
@@ -219,7 +198,7 @@ This project is an e-commerce website built using HTML, CSS, and vanilla JavaScr
 - Quick View: Fitur quick view untuk melihat detail produk tanpa harus berpindah halaman.
 - Form Login dan Registrasi: Fitur otentikasi dengan formulir login dan registrasi.
 - Panduan Ukuran dan Kebijakan Pengembalian: Informasi lengkap mengenai ukuran produk dan kebijakan     pengembalian.
-- Address Shipping Locatio
+- Address Shipping Location
  
 **Installation**
 1. Clone repository ini:
@@ -230,6 +209,222 @@ This project is an e-commerce website built using HTML, CSS, and vanilla JavaScr
 
 *License*
 - Project ini menggunakan lisensi MIT.
+
+
+## thx
+
+
+
+- LANGUAGE [EN]
+- LANGUAGE [ID]
+
+**TOMO E-Commerce Website**
+**NOT RESPONSIVE**
+
+**Contributing and collaboration**
+- If you want to contribute and learn together, please create a pull request or open an issue for further discussion.
+- Github: @https://github.com/9riffegndi
+- IG: https://www.instagram.com/riefgnadi_/
+
+
+## Description Tech Stack
+This project is an e-commerce website built using HTML, CSS, and vanilla JavaScript.
+- AOS animation : https://michalsnik.github.io/aos/
+
+
+
+**Table of Contents**
+
+***Introduction**
+- Project Structure
+- Features
+- Installation
+- Usage
+- Contributing
+- License
+- Acknowledgments
+
+
+**Introduction**
+    TOMO is an e-commerce website that provides various kinds of clothing products, especially hoodies and t-shirts. This website is built using HTML, CSS, and JavaScript with a modular structure to facilitate code management.
+
+
+**Project Structure**
+    Here is the folder structure of this project:
+
+README.md
+.vscode/
+  - settings.json
+src/
+  - assets/
+    - icons/
+      - add-button-cart.png
+      - aim.png
+      - bag.png
+      - down.png
+      - exclamation.png
+      - icons8-shopee-500.png
+      - instagram.png
+      - location.png
+      - minus.png
+      - plus.png
+      - search.png
+      - tik-tok.png
+      - tokopedia.png
+      - user.png
+    - images/
+      - product/
+        - 448442433_995704245467919_1098652599690567044_n.jpg
+        - Mvp Product Hoodie.png
+        - Mvp Product RED.png
+        - Mvp Product.png
+        - Size Guide.png
+      - hoodies/
+        - black-back.png
+        - black-front.png
+        - blue-back.jpg
+        - blue-front.jpg
+        - darkbrown-back.jpg
+        - darkbrown-front.jpg
+        - green-army-back.jpg
+        - green-army-front.jpg
+        - sage-back.jpg
+        - sage-front.jpg
+      - showcase/
+        - all-collections.png
+        - black.png
+        - cream.png
+        - green.png
+        - sage.png
+        - white.png
+      - tshirts/
+        - black/
+          - back.jpg
+          - front.jpg
+          - Snapinsta.app_453280628_802748104998549_8744615817919291688_n_1080.jpg
+          - Snapinsta.app_453393985_503826938708308_496481487401315919_n_1080.jpg
+        - blue/
+          - back.jpg
+          - front.jpg
+          - Snapinsta.app_446203903_282381954866480_6928208571540710250_n_1080.jpg
+          - Snapinsta.app_446336190_1430003664547747_4450536794077096967_n_1080.jpg
+        - brown/
+          - back.jpg
+          - front.jpg
+        - charcoal/
+          - back.jpg
+          - front.jpg
+        - cream/
+          - back.jpg
+          - front.jpg
+        - green/
+          - back.jpg
+          - front.jpg
+          - Snapinsta.app_449289946_348126628308274_216341083194588333_n_1080.jpg
+          - Snapinsta.app_449364512_383273398088093_1141582855916177912_n_1080.jpg
+        - orange/
+          - back.jpg
+          - front.jpg
+          - Snapinsta.app_449502707_1630814214367370_7685554859299244820_n_1080.jpg
+          - Snapinsta.app_449604718_330880110041498_7728777926761481565_n_1080.jpg
+        - red/
+          - back.jpg
+          - front.jpg
+        - white/
+          - 1/
+            - back.jpg
+            - front.jpg
+            - Snapinsta.app_449845879_865713138937807_6369977752730826871_n_1080.jpg
+            - Snapinsta.app_450451361_1934901196963745_5730862200869158526_n_1080.jpg
+          - 2/
+            - back.jpg
+            - front.jpg
+            - Snapinsta.app_453630786_835110295383485_2507957606905011186_n_1080.jpg
+            - Snapinsta.app_453630786_835110295383485_2507957606905011186_n_1080.jpg
+          - 3/
+            - back.jpg
+            - front.jpg
+            - Snapinsta.app_452528308_518519754031599_1540479909316228227_n_1080.jpg
+            - Snapinsta.app_452926799_1004734664712625_3205375846147657193_n_1080.jpg
+        - yellow/
+          - back.jpg
+          - front.jpg
+  - js/
+    - About.js
+    - CardProduct.js
+    - Feedback.js
+    - Footer.js
+    - ForgotPassword.js
+    - FormLogin.js
+    - FormRegistration.js
+    - Navbar.js
+    - Payment.js
+    - PrivacyPolicy.js
+    - QuickView.js
+    - ShoppingandReturnPolicy.js
+    - ShowcaseMVP.js
+    - ShowcaseSecondary.js
+    - SizeGuide.js
+    - Categories/
+      - CategoryHoodie.js
+      - CategoryTshirt.js
+  - pages/
+    - About.html
+    - Feedback.html
+    - ForgotPassword.html
+    - IndexMVP.html
+    - Login.html
+    - Payment.html
+    - PrivacyPolicy.html
+    - QuickView.html
+    - Registration.html
+    - SecondaryCatalogue.html
+    - ShoppingandReturnPolicy.html
+    - SizeGuide.html
+    - Categories/
+      - Hoodie.html
+      - Tshirt.html
+  - styles/
+    - About.css
+    - CardProduct.css
+    - CategoryHoodie.css
+    - CategoryTshirt.css
+    - Feedback.css
+    - Footer.css
+    - ForgotPassword.css
+    - FormLogin.css
+    - FormRegistration.css
+    - Main.css
+    - Navbar.css
+    - PrivacyPolicy.css
+    - QuickView.css
+    - ShoppingandReturnPolicy.css
+    - ShowcaseMVP.css
+    - SizeGuide.css
+
+    ## PRODUCT IMAGE SOURCE 
+- IG: https://www.instagram.com/snazzyflip.std/ 
+
+
+
+
+**Features**
+- Modular Components: Each frontend component such as navbar, footer, and products are developed modularly.
+- Product Categories: Products are categorized by type (hoodie, t-shirt) for easy navigation.
+- Quick View: Quick view feature to view product details without having to switch pages.
+- Login and Registration Form: Authentication feature with login and registration form.
+- Size Guide and Return Policy: Detailed information on product sizing and return policy.
+- Address Shipping Location
+ 
+**Installation**
+1. Clone this repository:
+    https://github.com/9riffegndi/Pre-order-ClotingBrand-.git
+2. Open the project folder in your favorite text editor.
+3. Run the website locally by opening the IndexMVP.html file in a browser.
+
+
+*License*
+- This project uses the MIT license.
 
 
 ## thx
