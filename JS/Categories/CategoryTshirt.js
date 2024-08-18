@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // ------------------------------//
   // END Card Product              //
   // ------------------------------//
+  AOS.init();
 });
 
 // ------------------------------//
@@ -17,12 +18,15 @@ function CreateCategoryTshirt() {
   const CatTshirt = document.createElement("div");
   CatTshirt.className = "overlay-category-Tshirt";
   CatTshirt.innerHTML = `  
-       <div class="header-card-title">
-            <p>CATAGORIES</p>
-            <h1>T-SHIRT</h1>
-        </div>
+        <div data-aos="fade-up"data-aos-duration="1200">
+            <div class="header-card-title">
+                <p>CATAGORIES</p>
+                <h1>T-SHIRT</h1>
+            </div>
+        </div>   
         <div class="wrapper-modal-card-product">
-            <div class="modal-card-prodcut">
+            <div data-aos="fade-up"data-aos-duration="1200">
+                            <div class="modal-card-prodcut">
                 <div class="container-card-product">
                     <div>
                         <a href="#">
@@ -275,6 +279,7 @@ function CreateCategoryTshirt() {
                 </div>
             </div>
         </div>
+            </div>  
             `;
   return CatTshirt;
 }
