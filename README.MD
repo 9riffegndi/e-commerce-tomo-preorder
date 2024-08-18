@@ -1,7 +1,7 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
 <p align="center" style="background-color: white; padding: 20px; display: inline-block;">
-  <img width="200px" height="200px" alt="Tomo Logo" src="/src/assets/Logo/TOMO LOGOS.png"/>
+  <img alt="Tomo Logo" src="/src/assets/Logo/TOMO LOGOS.png"/>
 </p>
 
 <!-- <p align="center" >
