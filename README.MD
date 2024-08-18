@@ -8,61 +8,6 @@
   <h1 align="center">TOMOS</h1>
 </p>
 
-**WEB TOMO E-Commerce Website**
-**NOT RESPONSIVE**
-
-**Contributing And collaboration**
-
-- Jika Anda ingin berkontribusi dan belajar bersama sama, silakan buat pull request atau buka issue untuk diskusi lebih lanjut.
-- Github : @https://github.com/9riffegndi
-- IG : https://www.instagram.com/riefgnadi_/
-
-## Description Tech Stack
-
-This project is an e-commerce website built using HTML, CSS, and vanilla JavaScript
-
-- animation AOS : https://michalsnik.github.io/aos/
-
-**Table of Contents**
-
-**\*Introduction**
-
-- Project Structure
-- Features
-- Installation
-- Usage
-- Contributing
-- License
-- Acknowledgments
-
-**Introduction**
-TOMO adalah sebuah website e-commerce yang menyediakan berbagai macam produk pakaian, khususnya hoodie dan t-shirt. Website ini dibangun menggunakan HTML, CSS, dan JavaScript dengan struktur modular untuk memudahkan pengelolaan kode.
-
-## PRODUCT IMAGE SOURCE
-
-- IG: https://www.instagram.com/snazzyflip.std/
-
-**Features**
-
-- Modular Components: Setiap komponen frontend seperti navbar, footer, dan produk dikembangkan secara modular.
-- Kategori Produk: Produk dikategorikan berdasarkan tipe (hoodie, t-shirt) untuk memudahkan navigasi.
-- Quick View: Fitur quick view untuk melihat detail produk tanpa harus berpindah halaman.
-- Form Login dan Registrasi: Fitur otentikasi dengan formulir login dan registrasi.
-- Panduan Ukuran dan Kebijakan Pengembalian: Informasi lengkap mengenai ukuran produk dan kebijakan pengembalian.
-- Address Shipping Location
-
-**Installation**
-
-1. Clone repository ini:
-   https://github.com/9riffegndi/Pre-order-ClotingBrand-.git
-2. Buka folder proyek di text editor favorit Anda.
-3. Jalankan website secara lokal dengan membuka file IndexMVP.html di browser.
-
-_License_
-
-- Project ini menggunakan lisensi MIT.
-
-## thx
 
 **TOMO E-Commerce Website**
 **NOT RESPONSIVE**
@@ -71,7 +16,7 @@ _License_
 
 - If you want to contribute and learn together, please create a pull request or open an issue for further discussion.
 - Github: @https://github.com/9riffegndi
-- IG: https://www.instagram.com/riefgnadi_/
+- IG    : https://www.instagram.com/riefgnadi_/
 
 ## Description Tech Stack
 
@@ -81,7 +26,7 @@ This project is an e-commerce website built using HTML, CSS, and vanilla JavaScr
 
 **Table of Contents**
 
-**\*Introduction**
+**Introduction**
 
 - Project Structure
 - Features
@@ -106,6 +51,10 @@ TOMO is an e-commerce website that provides various kinds of clothing products, 
 - Login and Registration Form: Authentication feature with login and registration form.
 - Size Guide and Return Policy: Detailed information on product sizing and return policy.
 - Address Shipping Location
+- Feedback Form
+- Category Page
+- About page
+- other
 
 **Installation**
 
