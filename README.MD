@@ -1,6 +1,6 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
-<p width="100%" height="max-content" align="center" background-color="White">
+<p align="center" >
 <img width="200px" height="200px" alt="Tomo Logo" src="/src/assets/Logo/TOMO LOGOS.png"/>
 </p>
 
