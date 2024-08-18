@@ -1,5 +1,8 @@
-- BAHASA [ID]
-- LANGUAGE [EN]
+<img width="60" height="68" alt="Tomo Logo" src="/src/assets/Logo/TOMO LOGOS.png"/>
+
+<p align="center">
+  <h1 align="center">TOMOS</h1>
+</p>
 
 
 **WEB TOMO E-Commerce Website**
@@ -215,8 +218,6 @@ src/
 
 
 
-- LANGUAGE [EN]
-- LANGUAGE [ID]
 
 **TOMO E-Commerce Website**
 **NOT RESPONSIVE**
