@@ -12,7 +12,7 @@
 
 .showcase-wrapper {
   display: flex;
-  transition: transform 0.5s ease;
+  transition: transform 1.5s ease;
 }
 
 .Mvp-product-showcase {
@@ -54,7 +54,6 @@
   color: black;
   box-shadow: rgb(168, 168, 168) 1px 1px 11px 1px;
   transition: all 0.3s ease-in;
-
 }
 
 .Mvp-product-showcase {
@@ -115,8 +114,6 @@
   width: max-content;
 } */
 
-
-
 /* Buttons container */
 .buttons {
   display: flex;
@@ -139,7 +136,6 @@
   /* transition: color 0.3s ease; */
   font-weight: bold;
 }
-
 
 .shop-now {
   /* position: relative; */

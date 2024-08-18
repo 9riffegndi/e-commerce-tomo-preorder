@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // ------------------------------//
   // END Card Product              //
   // ------------------------------//
+  AOS.init();
 });
 
 // ------------------------------//
@@ -18,8 +19,11 @@ function CreateCardProduct() {
   CardProduct.className = "overlay-card-product";
   CardProduct.innerHTML = `
         <div class="header-card-title">
-            <h1>ALL <hr>COLLECTION</h1>
+            <div data-aos="fade-up"data-aos-duration="1200">
+                <h1>ALL <hr>COLLECTION</h1>
+            </div>    
         </div>
+        <div data-aos="fade-up"data-aos-duration="1200">
         <div class="wrapper-modal-card-product">
             <div class="modal-card-prodcut">
                 <div class="container-card-product">
@@ -357,15 +361,18 @@ function CreateCardProduct() {
                     <div class="product-price">Rp 100.000</div>
                 </div>
                 </div>
-
             </div>
         </div>
+        </div>    
         <hr class="hr-custom">    
         <div class="header-card-title">
-            <p>CATAGORIES</p>
-            <h1>HOODIE</h1>
+            <div data-aos="fade-up"data-aos-duration="1200">
+                <p>CATAGORIES</p>
+                <h1>HOODIE</h1>
+            </div>    
         </div>
-        <div class="wrapper-modal-card-product">
+        <div data-aos="fade-up"data-aos-duration="2400">
+                    <div class="wrapper-modal-card-product">
             <div class="modal-card-prodcut">
                     <div class="container-card-product">
                         <div>
@@ -454,11 +461,15 @@ function CreateCardProduct() {
                     </div>
             </div>
         </div>
+        </div>    
         <hr class="hr-custom">    
         <div class="header-card-title">
-            <p>CATAGORIES</p>
-            <h1>T-SHIRT</h1>
+            <div data-aos="fade-up"data-aos-duration="1200">
+                <p>CATAGORIES</p>
+                <h1>T-SHIRT</h1>
+            </div>
         </div>
+        <div data-aos="fade-up"data-aos-duration="1200">
         <div class="wrapper-modal-card-product">
             <div class="modal-card-prodcut">
                 <div class="container-card-product">
@@ -713,6 +724,7 @@ function CreateCardProduct() {
                 </div>
             </div>
         </div>
+        </div>    
             `;
   return CardProduct;
 }

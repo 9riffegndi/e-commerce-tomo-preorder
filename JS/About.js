@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const AboutJS = document.getElementById("AboutJS");
   const About = CreateAbout();
   AboutJS.appendChild(About);
+  AOS.init();
 });
 
 function CreateAbout() {
@@ -9,11 +10,16 @@ function CreateAbout() {
   AbJs.className = "About";
   AbJs.innerHTML = `
     <div class="container-title">
-      <h1>ABOUT TOMOS</h1>
+      <div data-aos="fade-up"data-aos-duration="3000">
+        <h1>ABOUT TOMOS</h1>
+      </div>    
     </div>
     <div class="Container-About">
       <div class="wrapper-text-About">
-        <h4>Story</h4>
+        <div data-aos="fade-right" data-aos-duration="3000">
+          <h4>Story</h4>
+        </div>
+      <div data-aos="fade-up"data-aos-duration="2400">
         <p>
             Welcome to Tomo, a place where creativity, freedom and style meet to create t-shirts and hoodies that are more than just clothes-they're a statement of who you are. We don't just design clothes; we build identities that reflect courage, uniqueness and boundless passion.
         </p>
@@ -27,6 +33,7 @@ function CreateAbout() {
         <p>Our dream is to become the brand you choose when you're looking for more than just clothing—when you're seeking a way to express yourself, to step out with confidence, and to connect with a community that shares the same values. We've met so many inspiring individuals along our journey, and we believe this is just the beginning.</p>
         <hr>
         <p>So, let's continue this journey together. Let's keep expressing ourselves, stepping out in style, and creating unforgettable imprints with every step.</p>
+      </div>   
     </div>
   </div>
     `;

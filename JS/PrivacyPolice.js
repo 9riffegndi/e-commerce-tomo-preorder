@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const PrivacyPolicyJS = document.getElementById("PrivacyPolicyJS");
   const PrivacyPolicy = CreatePrivacyPolicy();
   PrivacyPolicyJS.appendChild(PrivacyPolicy);
+  AOS.init();
 });
 
 function CreatePrivacyPolicy() {
@@ -9,11 +10,16 @@ function CreatePrivacyPolicy() {
   PrPolicy.className = "PrivacyPolicy";
   PrPolicy.innerHTML = `
         <div class="overlay-privacy-policy">
-            <h1>TOMOS PRIVACY POLICY</h1>
-            <h2>PRIVACY POLICY TERMS & CONDITIONS</h2>
+            <div data-aos="fade-up"data-aos-duration="3000">
+                <h1>TOMOS PRIVACY POLICY</h1>
+            </div>   
+            <div data-aos="fade-right" data-aos-duration="3000">
+                <h2>PRIVACY POLICY TERMS & CONDITIONS</h2>
+            </div>
         </div>
         <div class="privacy-policy-rules">
-            <ul>
+            <div data-aos="fade-up"data-aos-duration="3000">
+                <ul>
                 <li>
                     <strong>1. Information We Collect:</strong>
                     <ul>
@@ -77,11 +83,10 @@ function CreatePrivacyPolicy() {
                         <li>Phone: +62 123 456 789</li>
                         <li>Address: 1234 Main Street, Yogyakarta, ID</ul>
                     </ul>
-                </li>
-            </ul>
+            </div>   
         </div>
         `;
-        return PrPolicy;
+  return PrPolicy;
 }
 // ------------------------------//
 // END Footer Structure          //

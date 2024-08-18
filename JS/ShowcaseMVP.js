@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Menginisialisasi slideshow produk
   initializeSlideshow();
   // END Menginisialisasi slideshow produk
+  AOS.init();
 });
 
 // ------------------------------//
@@ -103,8 +104,12 @@ function CreateShowcaseMVP() {
                 <!-- Additional product showcases here -->
             </div>
             <div class="slide-nav">
+              <div data-aos="fade-right" data-aos-duration="1000">
                 <button class="prev">&lt;</button>
+              </div>
+              <div data-aos="fade-left" data-aos-duration="1000">
                 <button class="next">&gt;</button>
+              </div>
             </div>
     `;
   return Showcase;
