@@ -1,8 +1,14 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
-<p align="center" >
-<img width="200px" height="200px" alt="Tomo Logo" src="/src/assets/Logo/TOMO LOGOS.png"/>
-</p>
+<div style="background-color: white; width: 100%; text-align: center; padding: 20px 0;">
+  <img width="200px" height="200px" alt="Tomo Logo" src="/src/assets/Logo/TOMO LOGOS.png"/>
+</div>
+
+<!-- <div>
+  <p align="center" >
+  <img width="200px" height="200px" alt="Tomo Logo" src="/src/assets/Logo/TOMO LOGOS.png"/>
+  </p>
+</div> -->
 
 <p align="center">
   <h1 align="center">TOMOS</h1>
