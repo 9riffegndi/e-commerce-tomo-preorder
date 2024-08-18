@@ -8,7 +8,6 @@
   <h1 align="center">TOMOS</h1>
 </p>
 
-
 **TOMO E-Commerce Website**
 **NOT RESPONSIVE**
 
@@ -16,7 +15,7 @@
 
 - If you want to contribute and learn together, please create a pull request or open an issue for further discussion.
 - Github: @https://github.com/9riffegndi
-- IG    : https://www.instagram.com/riefgnadi_/
+- IG : https://www.instagram.com/riefgnadi_/
 
 ## Description Tech Stack
 
@@ -39,7 +38,7 @@ This project is an e-commerce website built using HTML, CSS, and vanilla JavaScr
 **Introduction**
 TOMO is an e-commerce website that provides various kinds of clothing products, especially hoodies and t-shirts. This website is built using HTML, CSS, and JavaScript with a modular structure to facilitate code management.
 
-  ## PRODUCT IMAGE SOURCE
+## PRODUCT IMAGE SOURCE
 
 - IG: https://www.instagram.com/snazzyflip.std/
 
@@ -65,6 +64,7 @@ TOMO is an e-commerce website that provides various kinds of clothing products, 
 
 _License_
 
+- MIT
 - This project uses the MIT license.
 
 ## thx
