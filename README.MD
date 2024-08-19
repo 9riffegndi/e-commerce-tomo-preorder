@@ -13,31 +13,24 @@
 </p>
 
 **TOMO E-Commerce Website**
-**NOT RESPONSIVE**
+**NOT RESPONSIVE WEB**
 
 **Contributing and collaboration**
 
 - If you want to contribute and learn together, please create a pull request or open an issue for further discussion.
 - Github: @https://github.com/9riffegndi
-- IG : https://www.instagram.com/riefgnadi_/
 
 ## Description Tech Stack
 
 This project is an e-commerce website built using HTML, CSS, and vanilla JavaScript.
 
-- AOS animation : https://michalsnik.github.io/aos/
-
 **Table of Contents**
-
 **Introduction**
 
-- Project Structure
 - Features
 - Installation
 - Usage
-- Contributing
 - License
-- Acknowledgments
 
 **Introduction**
 TOMO is an e-commerce website that provides various kinds of clothing products, especially hoodies and t-shirts. This website is built using HTML, CSS, and JavaScript with a modular structure to facilitate code management.
@@ -48,7 +41,6 @@ TOMO is an e-commerce website that provides various kinds of clothing products, 
 
 **Features**
 
-- Modular Components: Each frontend component such as navbar, footer, and products are developed modularly.
 - Product Categories: Products are categorized by type (hoodie, t-shirt) for easy navigation.
 - Quick View: Quick view feature to view product details without having to switch pages.
 - Login and Registration Form: Authentication feature with login and registration form.
@@ -71,4 +63,4 @@ _License_
 - MIT
 - This project uses the MIT license.
 
-## thx
+## THX
