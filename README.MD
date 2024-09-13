@@ -16,8 +16,6 @@
 **NOT RESPONSIVE WEB**
 
 **Contributing and collaboration**
-
-- If you want to contribute and learn together, please create a pull request or open an issue for further discussion.
 - Github: @https://github.com/9riffegndi
 
 ## Description Tech Stack
