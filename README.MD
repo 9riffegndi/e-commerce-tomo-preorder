@@ -7,7 +7,7 @@
 </p>
 
 <p align="center" style="background-color: white; padding: 20px; display: inline-block;">
-  <img alt="Tomo Logo" src=".src/assets/img/Product/BANNER.png"/>
+  <img alt="Tomo Logo" src="./src/assets/img/Product/BANNER.png"/>
 </p>
 
 ## product picture source
