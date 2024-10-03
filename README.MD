@@ -1,12 +1,9 @@
 ## E-Commerce Website Pre-Order
 
 ## NOT RESPONSIVE
-
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-
-<p align="center" style="background-color: white; padding: 20px; display: inline-block;">
-  <img alt="Tomo Logo" src="./src/assets/Logo/TOMO LOGOS NOBGWHITE.png"/>
-</p>
+## Preview web
+- => [Link](https://e-commerce-tomo-preorder.vercel.app/)
 
 <p align="center" style="background-color: white; padding: 20px; display: inline-block;">
   <img alt="Tomo Logo" src="./src/assets/img/Product/BANNER.png"/>
@@ -19,7 +16,3 @@
 _License_
 
 - MIT
-
-## Preview web
-
-- => [Link](https://e-commerce-tomo-preorder.vercel.app/)
