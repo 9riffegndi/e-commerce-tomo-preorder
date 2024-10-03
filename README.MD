@@ -3,9 +3,8 @@
 ## NOT RESPONSIVE
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
-
 # Preview web
-- => [Link](https://e-commerce-tomo-preorder.vercel.app/)
+- => [visit](https://e-commerce-tomo-preorder.vercel.app/)
 
 
 #
