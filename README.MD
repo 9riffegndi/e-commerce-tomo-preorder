@@ -1,5 +1,7 @@
+## E-Commerce Website Pre-Order
 
-## E-Commerce Website Pre-Order, NOT RESPONSIVE 
+## NOT RESPONSIVE
+
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
 <p align="center" style="background-color: white; padding: 20px; display: inline-block;">
@@ -11,8 +13,13 @@
 </p>
 
 ## product picture source
+
 - IG: https://www.instagram.com/snazzyflip.std/
 
 _License_
+
 - MIT
 
+## Preview web
+
+- => [Link](https://e-commerce-tomo-preorder.vercel.app/)
