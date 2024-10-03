@@ -14,12 +14,10 @@ document.addEventListener("DOMContentLoaded", () => {
   // ------------------------------//
   //  Mini Cart Overlay Function   //
   // ------------------------------//
-
   // Mengambil elemen yang dibutuhkan untuk mini cart
   const cartIcon = document.querySelector(".cart-icon");
   const miniCartOverlay = document.querySelector(".mini-cart-overlay");
   const closeBtn = document.querySelector(".close-btn");
-
   // Menambahkan event listener untuk membuka mini cart ketika ikon cart diklik
   cartIcon.addEventListener("click", (event) => {
     event.preventDefault(); // Mencegah tindakan default dari elemen (misalnya, navigasi)
@@ -38,51 +36,43 @@ document.addEventListener("DOMContentLoaded", () => {
   // ------------------------------//
   //  END Mini Cart Overlay Function//
   // ------------------------------//
-
   // ------------------------------//
   // Item-cart-count Function      //
   // ------------------------------//
-  
   let cartCount = 0;
+
   function updateCartCount() {
     const cartCountElements = document.querySelectorAll(".Item-cart-count");
     cartCountElements.forEach((element) => {
       element.textContent = cartCount;
     });
   }
-
   window.addToCart = function () {
     cartCount++;
     updateCartCount();
   };
-
   document.addEventListener("DOMContentLoaded", updateCartCount);
   // ------------------------------//
   // END Item-cart-count Function  //
   // ------------------------------//
-
   // ------------------------------//
   //  Addres Modal function        //
   // ------------------------------//
-
   // Mengambil elemen yang dibutuhkan untuk address modal
   const addressLink = document.querySelector(".nav-link.address-link");
   const addressModal = document.querySelector(".addres-modal-overlay");
   const closeButton = document.querySelector(
     ".close-button-addres-modal button"
   );
-
   // Menambahkan event listener untuk membuka address modal ketika link address diklik
   addressLink.addEventListener("click", (event) => {
     event.preventDefault(); // Mencegah tindakan default dari elemen (misalnya, navigasi)
     addressModal.style.display = "flex"; // Menampilkan modal dengan flex display
   });
-
   // Menambahkan event listener untuk menutup address modal ketika tombol close diklik
   closeButton.addEventListener("click", () => {
     addressModal.style.display = "none"; // Menyembunyikan modal
   });
-
   // Menambahkan event listener untuk menutup address modal ketika area di luar modal diklik
   addressModal.addEventListener("click", (event) => {
     if (event.target === addressModal) {
@@ -92,14 +82,12 @@ document.addEventListener("DOMContentLoaded", () => {
   // ------------------------------//
   // END Addres Modal function       //
   // ------------------------------//
-
   // ------------------------------//
   //  Location Popular Container Function//
   // ------------------------------//
   const locationButton = document.querySelector(
     ".icon-cordinate-location-pupular"
   );
-
   locationButton.addEventListener("click", function () {
     alert("Request Location");
     if (navigator.geolocation) {
@@ -131,33 +119,31 @@ document.addEventListener("DOMContentLoaded", () => {
   // END Location Popular Container Function//
   // ------------------------------//
 });
-
 // ------------------------------//
 // Navbar Structure              //
 // ------------------------------//
-
 function CreateNavbar() {
   const Navbar = document.createElement("nav");
   Navbar.className = "Navbar";
   Navbar.innerHTML = `
 <ul class="nav-list">
-            <li class="nav-item"><a href="/pages/About.html" class="nav-link">ABOUT</a></li>
+            <li class="nav-item"><a href="../pages/About.html" class="nav-link">ABOUT</a></li>
             <li class="nav-item">
                 <a href="#" class="nav-link">CATEGORIES</a>
                 <div class="submenu-Category">
-                    <a href="/pages/Categories/Hoodie.html" class="nav-link">Hoodie</a>
-                    <a href="/pages/Categories/Tshirt.html" class="nav-link">T-shirt</a>
+                    <a href="../pages/Hoodie.html" class="nav-link">Hoodie</a>
+                    <a href="../pages/Tshirt.html" class="nav-link">T-shirt</a>
                 </div>
             </li>
             <li class="nav-item logo">
-                <a href="/pages/IndexMVP.html" class="nav-link logo-link">
-                    <img src="/src/assets/Logo/TOMO LOGOS NOBG.png" alt="logo-tomo" class="logo-img">
+                <a href="../index.html" class="nav-link logo-link">
+                    <img src="../src/assets/Logo/TOMO LOGOS NOBG.png" alt="logo-tomo" class="logo-img">
                 </a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link cart-icon">
                 <div class="container-cart-icon-cart-count">
-                  <img src="/src/assets/Icon/bag.png" alt="Cart-icon" class="icon-cart">
+                  <img src="../src/assets/Icon/bag.png" alt="Cart-icon" class="icon-cart">
                   <span class="Item-cart-count">0</span>
                 </div>
                 </a>
@@ -168,9 +154,9 @@ function CreateNavbar() {
                             <button class="close-btn">&times;</button>
                         </div>
                         <div class="mini-cart-content">
-                            <img src="/src/assets/Icon/bag.png" alt="Cart-icon" class="icon-cart-large">
+                            <img src="../src/assets/Icon/bag.png" alt="Cart-icon" class="icon-cart-large">
                             <p>Your cart is currently empty</p>
-                            <a href="/pages/SecondaryCatalogue.html" class="start-shopping-link">START SHOPPING</a>
+                            <a href="../pages/SecondaryCatalogue.html" class="start-shopping-link">START SHOPPING</a>
                         </div>
                     </div>
                 </div>
@@ -179,7 +165,7 @@ function CreateNavbar() {
                 <a href="/pages/Login.html" class="nav-link login-register">LOGIN | REGISTER</a>
                 <a href="#" class="nav-link address-link">
                     Dikirim ke - <span class="city-address">Indramayu</span>
-                    <img src="/src/assets/Icon/location.png" alt="Address-icon" class="icon-address">
+                    <img src="../src/assets/Icon/location.png" alt="Address-icon" class="icon-address">
                 </a>
                 <div class="addres-modal-overlay">
                     <div class="addres-modal-overlay2">
@@ -199,7 +185,7 @@ function CreateNavbar() {
                                     <p>Login first to select your shipping address</p>
                                 </div>
                                 <div class="container-addres-modal-button-login">
-                                  <a  class="addres-modal-login" href="/pages/Login.html">Login</a>
+                                  <a class="addres-modal-login" href="../pages/Login.html">Login</a>
                                 </div>
                             </div>
                             <hr>
@@ -208,7 +194,7 @@ function CreateNavbar() {
                                 <div class="container-search-addres">
                                     <div class="container-search-input-addres">
                                         <div class="container-icon-seacrh-addres">
-                                            <img class="icon-search-addres" src="/src/assets/Icon/search.png" alt="">
+                                            <img class="icon-search-addres" src="../src/assets/Icon/search.png" alt="">
                                         </div>
                                         <div class="contiener-input-search-addres-location">
                                             <input type="text" class="search-input" placeholder="Select a city or sub-district">
@@ -221,7 +207,7 @@ function CreateNavbar() {
                                 <div class="container-location-popular">
                                     <div class="container-button-location-popular">
                                         <div class="icon-cordinate-location-pupular">
-                                            <img class="icon-cordinate-popular-location" src="/src/assets/Icon/aim.png" alt="Cordinate Popular location">
+                                            <img class="icon-cordinate-popular-location" src="../src/assets/Icon/aim.png" alt="Cordinate Popular location">
                                             <p>Use current location</p>
                                         </div>
                                         <p class="popular-city-p">Popular City</p>

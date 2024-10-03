@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // END Menginisialisasi slideshow produk
   AOS.init();
 });
-
 // ------------------------------//
 // add-to-cart Function          //
 // ------------------------------//
@@ -30,7 +29,6 @@ document.addEventListener("DOMContentLoaded", function () {
 // ------------------------------//
 // END add-to-cart Function      //
 // ------------------------------//
-
 // ------------------------------//
 // Mvp Product Showcase Structure//
 // ------------------------------//
@@ -125,11 +123,9 @@ function CreateShowcaseMVP() {
 // ----------------------------------//
 // END Mvp Product Showcase Structure//
 // ----------------------------------//
-
 // ------------------------------//
 // Initialize Slideshow Function //
 // ------------------------------//
-
 function initializeSlideshow() {
   const container = document.querySelector(".MVP-product-showcase-container");
   const wrapper = container.querySelector(".showcase-wrapper");
@@ -137,24 +133,20 @@ function initializeSlideshow() {
   const prevBtn = container.querySelector(".slide-nav .prev");
   const nextBtn = container.querySelector(".slide-nav .next");
   let currentIndex = 0;
-
   // Menampilkan slide pada index yang diberikan
   function showSlide(index) {
     wrapper.style.transform = `translateX(-${index * 100}%)`;
   }
-
   // Menampilkan slide berikutnya
   function nextSlide() {
     currentIndex = (currentIndex + 1) % slides.length;
     showSlide(currentIndex);
   }
-
   // Menampilkan slide sebelumnya
   function prevSlide() {
     currentIndex = (currentIndex - 1 + slides.length) % slides.length;
     showSlide(currentIndex);
   }
-
   // Menambahkan event listeners untuk tombol navigasi
   prevBtn.addEventListener("click", prevSlide);
   nextBtn.addEventListener("click", nextSlide);

@@ -1,55 +1,48 @@
 .Shoppingandreturn {
-    /* background-color: aquamarine; */
-    width: 100%;
-    height: max-content;
-    display: grid;
-    justify-content: center;
+  /* background-color: aquamarine; */
+  width: 100%;
+  height: max-content;
+  display: grid;
+  justify-content: center;
 }
-
-
 
 .overlay-shopping-return {
-    /* background-color: aqua; */
-    width: max-content;
-    padding: 20px;
-
+  /* background-color: aqua; */
+  width: max-content;
+  padding: 20px;
 }
 
-
 .overlay-shopping-return h1 {
-    /* background-color: beige; */
-    font-size: 50px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    width: 100%;
-    text-align: center;
+  /* background-color: beige; */
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: 100%;
+  text-align: center;
 }
 
 .overlay-shopping-return h2 {
-    /* background-color: red; */
-    font-weight: 500;
-    margin: 20px 20px -60px 10px;
+  /* background-color: red; */
+  font-weight: 500;
+  margin: 20px 20px -60px 10px;
 }
 
-
-
-.shoppingandreturnrules  li {
-    margin: 20px;
+.shoppingandreturnrules li {
+  margin: 20px;
 }
 
 .shoppingandreturnrules {
-    /* background-color: aquamarine; */
-    margin: 40px;
-    text-align: justify;
-    width: 90%;
-    text-align: left;
+  /* background-color: aquamarine; */
+  margin: 40px;
+  text-align: justify;
+  width: 90%;
+  text-align: left;
 }
 
-
 .shoppingandreturnrules p {
-    /* background-color: blueviolet; */
-    margin-left: -20px;
-    width: 89%;
-    font-size:17px;
-    font-weight: 500;
+  /* background-color: blueviolet; */
+  margin-left: -20px;
+  width: 89%;
+  font-size: 17px;
+  font-weight: 500;
 }

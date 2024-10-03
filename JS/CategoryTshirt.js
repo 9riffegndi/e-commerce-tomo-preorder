@@ -2,9 +2,9 @@ document.addEventListener("DOMContentLoaded", () => {
 	// ------------------------------//
 	// Card Product                  //
 	// ------------------------------//
-	const CardProductJS = document.getElementById("CardProductJS");
-	const CardProduct = CreateCardProduct();
-	CardProductJS.appendChild(CardProduct);
+	const CategoryTshirtJS = document.getElementById("CategoryTshirtJS");
+	const CategoryTshirt = CreateCategoryTshirt();
+	CategoryTshirtJS.appendChild(CategoryTshirt);
 	// ------------------------------//
 	// END Card Product              //
 	// ------------------------------//
@@ -13,15 +13,16 @@ document.addEventListener("DOMContentLoaded", () => {
 // ------------------------------//
 // Card Product Structure        //
 // ------------------------------//
-function CreateCardProduct() {
-	const CardProduct = document.createElement("div");
-	CardProduct.className = "overlay-card-product";
-	CardProduct.innerHTML = `
-        <div class="header-card-title">
-            <div data-aos="fade-up"data-aos-duration="1200">
-                <h1>ALL <hr>COLLECTION</h1>
-            </div>    
-        </div>
+function CreateCategoryTshirt() {
+	const CatTshirt = document.createElement("div");
+	CatTshirt.className = "overlay-category-Tshirt";
+	CatTshirt.innerHTML = `  
+        <div data-aos="fade-up"data-aos-duration="1200">
+            <div class="header-card-title">
+                <p>CATAGORIES</p>
+                <h1>T-SHIRT</h1>
+            </div>
+        </div>   
         <!--t shirt-->
         <div data-aos="fade-up"data-aos-duration="1200">
         <div class="wrapper-modal-card-product">
@@ -280,141 +281,8 @@ function CreateCardProduct() {
         </div>
         </div>    
         <!--t shirt-->
-        <!--hoodie  -->
-        <div data-aos="fade-up"data-aos-duration="1200">
-        <div class="wrapper-modal-card-product">
-            <div class="modal-card-prodcut">
-            <div class="container-card-product">
-                <div>
-                    <a href="../pages/QuickView.html">
-                        <img
-                            class="primary-card-product-image"
-                            src="../src/assets/img/Product/hoodie/darkbrown front.jpg"
-                            alt="card product image size 300x300"
-                        />
-                    </a>
-                    <a href="../pages/QuickView.html">
-                        <img
-                            class="secondary-card-product-image"
-                            src="../src/assets/img/Product/hoodie/darkbrown back.jpg"
-                            alt="card product image size 300x300"
-                        />
-                    </a>
-                </div>
-                <div class="container-description-card-product">
-                    <div class="header-brand-name"><p>T O M O</p></div>
-                    <div class="badge-product-status">IN STOCK</div>
-                    <div class="badge-stock-product">10 PCS</div>
-                    <div class="title-product-name">Stellar sossh</div>
-                    <div class="product-price">Rp 122.000</div>
-                </div>
-                </div>
-                <div class="container-card-product">
-                    <div>
-                    <a href="../pages/QuickView.html">
-                        <img
-                            class="primary-card-product-image"
-                            src="../src/assets/img/Product/hoodie/green army front.jpg"
-                            alt="card product image size 300x300"
-                        />
-                    </a>
-                    <a href="../pages/QuickView.html">
-                        <img
-                            class="secondary-card-product-image"
-                            src="../src/assets/img/Product/hoodie/green army back.jpg"
-                            alt="card product image size 300x300"
-                        />
-                    </a>
-                </div>
-                <div class="container-description-card-product">
-                    <div class="header-brand-name"><p>T O M O</p></div>
-                    <div class="badge-product-status">OUT OF STOCK</div>
-                    <div class="badge-stock-product">0 PCS</div>
-                    <div class="title-product-name">Stellar sossh</div>
-                    <div class="product-price">Rp 100.000</div>
-                    </div>
-                </div>
-                <div class="container-card-product">
-                    <div>
-                    <a href="../pages/QuickView.html">
-                        <img
-                            class="primary-card-product-image"
-                            src="../src/assets/img/Product/hoodie/black front.png"
-                            alt="card product image size 300x300"
-                        />
-                    </a>
-                    <a href="../pages/QuickView.html">
-                        <img
-                            class="secondary-card-product-image"
-                            src="../src/assets/img/Product/hoodie/black back.png"       
-                            alt="card product image size 300x300"
-                        />
-                    </a>
-                </div>
-                <div class="container-description-card-product">
-                    <div class="header-brand-name"><p>T O M O</p></div>
-                    <div class="badge-product-status">IN STOCK</div>
-                    <div class="badge-stock-product">50 PCS</div>
-                    <div class="title-product-name">Stellar sossh</div>
-                    <div class="product-price">Rp 120.000</div>
-                    </div>
-                </div>
-                <div class="container-card-product">
-                    <div>
-                    <a href="../pages/QuickView.html">
-                        <img
-                            class="primary-card-product-image"
-                            src="../src/assets/img/Product/hoodie/blue front.jpg"
-                            alt="card product image size 300x300"
-                        />
-                    </a>
-                    <a href="../pages/QuickView.html">
-                        <img
-                            class="secondary-card-product-image"
-                            src="../src/assets/img/Product/hoodie/blue back.jpg"
-                            alt="card product image size 300x300"
-                        />
-                    </a>
-                </div>
-                    <div class="container-description-card-product">
-                    <div class="header-brand-name"><p>T O M O</p></div>
-                    <div class="badge-product-status">PRE ORDER</div>
-                    <div class="badge-stock-product">0 PCS</div>
-                    <div class="title-product-name">Stellar sossh</div>
-                    <div class="product-price">Rp 200.000</div>
-                    </div>
-                </div>
-                <div class="container-card-product">
-                    <div>
-                    <a href="../pages/QuickView.html">
-                        <img
-                            class="primary-card-product-image"
-                            src="../src/assets/img/Product/hoodie/sage front.jpg"
-                            alt="card product image size 300x300"
-                        />
-                    </a>
-                    <a href="../pages/QuickView.html">
-                        <img
-                            class="secondary-card-product-image"
-                            src="../src/assets/img/Product/hoodie/sage back.jpg"
-                            alt="card product image size 300x300"
-                        />
-                    </a>
-                </div>
-                <div class="container-description-card-product">
-                    <div class="header-brand-name"><p>T O M O</p></div>
-                    <div class="badge-product-status">OUT OF STOCK</div>
-                    <div class="badge-stock-product">0 PCS</div>
-                    <div class="title-product-name">Stellar sossh</div>
-                    <div class="product-price">Rp 100.000</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>   
-        <!--hoodie  -->
             `;
-	return CardProduct;
+	return CatTshirt;
 }
 // ----------------------------------//
 // END Card Product Structure        //

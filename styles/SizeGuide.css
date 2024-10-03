@@ -1,86 +1,79 @@
 .SizeGuides {
-    /* background-color: blueviolet; */
-    width: 100%;
-    margin-top:-30px;
-    align-items: center;
-    justify-content: center;
-    height: max-content;
+  /* background-color: blueviolet; */
+  width: 100%;
+  margin-top: -30px;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
 }
 
 .container-title {
-    /* background-color: aqua; */
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+  /* background-color: aqua; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .container-title h1 {
-    font-size: 40px;
-    font-weight: 510;
+  font-size: 40px;
+  font-weight: 510;
 }
-
 
 .Container-sz-guide-tshirt {
-    width: 100%;
-    /* background-color: aqua; */
-    place-items: center;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  /* background-color: aqua; */
+  place-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
-
 .wrapper-table-sz-guide {
-    width: 1000px;
+  width: 1000px;
 }
 
 .Container-sz-guide-tshirt h4 {
-    font-size: 30px;
-    font-weight: 420;
-    text-decoration: underline;
-    width: max-content;
-
+  font-size: 30px;
+  font-weight: 420;
+  text-decoration: underline;
+  width: max-content;
 }
-
 
 th,
 td {
-
-    border: 1px solid #b3b3b3;
-    padding: 10px 40px 10px 30px;
-    width: 100%;
-    font-size: 14px;
-    text-align: center;
+  border: 1px solid #b3b3b3;
+  padding: 10px 40px 10px 30px;
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
 }
 
 th {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
-
 .highlight-color-th {
-    background-color: rgb(79, 79, 79);
-    color: white;
-    font-weight: bold;
+  background-color: rgb(79, 79, 79);
+  color: white;
+  font-weight: bold;
 }
 
 table {
-    width: 100%;
-    table-layout: fixed;
-    /* Pastikan semua kolom memiliki lebar yang sama */
+  width: 100%;
+  table-layout: fixed;
+  /* Pastikan semua kolom memiliki lebar yang sama */
 }
 
-
 .container-img-size {
-    width: 100%;
-    /* background-color: black; */
-    display: flex;
-    margin-top: 20px;
-    justify-content: center;
+  width: 100%;
+  /* background-color: black; */
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
 }
 
 .container-img-size img {
-    width: 80%;
-    height: 300px;
+  width: 80%;
+  height: 300px;
 }

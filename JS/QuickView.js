@@ -2,14 +2,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const QuickViewJS = document.getElementById("QuickViewJS");
   const QuickView = CreateQuickView();
   QuickViewJS.appendChild(QuickView);
-
   // ------------------------------//
   // quantity-selector Function//
   // ------------------------------//
   const quantityInput = document.getElementById("quantity");
   const reduceButton = document.getElementById("reduce-quantity");
   const addButton = document.getElementById("add-quantity");
-
   let quantity = parseInt(quantityInput.value);
 
   function updateQuantity(newQuantity) {
@@ -18,25 +16,20 @@ document.addEventListener("DOMContentLoaded", () => {
     // Disable reduce button if quantity is 1
     reduceButton.disabled = quantity <= 1;
   }
-
   addButton.addEventListener("click", () => {
     updateQuantity(quantity + 1);
   });
-
   reduceButton.addEventListener("click", () => {
     if (quantity > 1) {
       updateQuantity(quantity - 1);
     }
   });
-
   // Initial check to set the state of the reduce button
   updateQuantity(quantity);
-
   // ------------------------------//
   // END quantity-selector Function//
   // ------------------------------//
 });
-
 // ------------------------------//
 // add-to-cart Function          //
 // ------------------------------//
@@ -53,7 +46,6 @@ document.addEventListener("DOMContentLoaded", function () {
 // ------------------------------//
 // END add-to-cart Function      //
 // ------------------------------//
-
 function checkIntersection() {
   const wrapper = document.querySelector(
     ".wrapper-container-description-product-qv"
@@ -61,10 +53,8 @@ function checkIntersection() {
   const parent = document.querySelector(
     ".parent-container-description-product-qv"
   );
-
   const wrapperRect = wrapper.getBoundingClientRect();
   const parentRect = parent.getBoundingClientRect();
-
   // Check if the bottom of the wrapper has scrolled past the bottom of the parent
   if (wrapperRect.bottom > parentRect.bottom) {
     wrapper.classList.add("hidden");
@@ -72,12 +62,10 @@ function checkIntersection() {
     wrapper.classList.remove("hidden");
   }
 }
-
 // Check on scroll and resize
 window.addEventListener("scroll", checkIntersection);
 window.addEventListener("resize", checkIntersection);
 document.addEventListener("DOMContentLoaded", checkIntersection);
-
 // Observe the wrapper
 observer.observe(wrapper);
 

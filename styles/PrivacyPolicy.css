@@ -1,45 +1,39 @@
 .PrivacyPolicy {
-    /* background-color: aquamarine; */
-    width: 100%;
-    height: max-content;
-    display: grid;
-    justify-content: center;
+  /* background-color: aquamarine; */
+  width: 100%;
+  height: max-content;
+  display: grid;
+  justify-content: center;
 }
-
-
 
 .overlay-privacy-policy {
-    /* background-color: aqua; */
-    width: max-content;
-    padding: 20px;
-
+  /* background-color: aqua; */
+  width: max-content;
+  padding: 20px;
 }
 
-
 .overlay-privacy-policy h1 {
-    /* background-color: beige; */
-    font-size: 50px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    width: 100%;
-    text-align: center;
+  /* background-color: beige; */
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: 100%;
+  text-align: center;
 }
 
 .overlay-privacy-policy h2 {
-    /* background-color: red; */
-    font-weight: 500;
-    margin: 20px 20px -60px 10px;
+  /* background-color: red; */
+  font-weight: 500;
+  margin: 20px 20px -60px 10px;
 }
 
-
-
-.privacy-policy-rules  li {
-    margin: 20px;
+.privacy-policy-rules li {
+  margin: 20px;
 }
 
 .privacy-policy-rules {
-    /* background-color: aquamarine; */
-    margin: 40px;
-    width: 90%;
-    text-align: left;
+  /* background-color: aquamarine; */
+  margin: 40px;
+  width: 90%;
+  text-align: left;
 }

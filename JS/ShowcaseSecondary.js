@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // END Menginisialisasi slideshow produk
   AOS.init();
 });
-
 // ------------------------------//
 // Mvp Product Showcase Structure//
 // ------------------------------//
@@ -62,11 +61,9 @@ function CreateShowcaseMVP() {
 // ----------------------------------//
 // END Mvp Product Showcase Structure//
 // ----------------------------------//
-
 // ------------------------------//
 // Initialize Slideshow Function //
 // ------------------------------//
-
 function initializeSlideshow() {
   const container = document.querySelector(".MVP-product-showcase-container");
   const wrapper = container.querySelector(".showcase-wrapper");
@@ -75,34 +72,28 @@ function initializeSlideshow() {
   const nextBtn = container.querySelector(".slide-nav .next");
   let currentIndex = 0;
   let slideInterval;
-
   // Menampilkan slide pada index yang diberikan
   function showSlide(index) {
     wrapper.style.transform = `translateX(-${index * 100}%)`;
   }
-
   // Menampilkan slide berikutnya
   function nextSlide() {
     currentIndex = (currentIndex + 1) % slides.length;
     showSlide(currentIndex);
   }
-
   // Menampilkan slide sebelumnya
   function prevSlide() {
     currentIndex = (currentIndex - 1 + slides.length) % slides.length;
     showSlide(currentIndex);
   }
-
   // Mengatur interval slideshow otomatis
   function startAutoSlide() {
     slideInterval = setInterval(nextSlide, 3000); // Berganti slide setiap 3 detik
   }
-
   // Menghentikan interval slideshow otomatis
   function stopAutoSlide() {
     clearInterval(slideInterval);
   }
-
   // Menambahkan event listeners untuk tombol navigasi
   prevBtn.addEventListener("click", () => {
     prevSlide();
@@ -114,14 +105,11 @@ function initializeSlideshow() {
     stopAutoSlide(); // Hentikan otomatis saat navigasi manual
     startAutoSlide(); // Mulai kembali otomatis setelah navigasi manual
   });
-
   // Mulai slideshow otomatis saat inisialisasi
   startAutoSlide();
 }
-
 // Pastikan untuk memanggil fungsi ini setelah DOM selesai dimuat
 document.addEventListener("DOMContentLoaded", initializeSlideshow);
-
 // ------------------------------//
 // END Initialize Slideshow Function//
 // ------------------------------//

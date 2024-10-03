@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
   //  END DOM From Login            //
   // ------------------------------//
 });
-
 // ------------------------------//
 //  From Login Structure         //
 // ------------------------------//
@@ -31,7 +30,7 @@ function CreateFeedback() {
     <div class="comment-feedback">
         <textarea name="Feedback" id="feedback-comment" placeholder="Your Feedback"></textarea>
     </div>            `;
-    return FdBackForm;
+  return FdBackForm;
 }
 // ------------------------------//
 //  END From Login Structure     //

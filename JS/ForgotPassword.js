@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function CreateForgotPassword() {
-    const ForgotPassword = document.createElement("div");
-    ForgotPassword.className = "Forgot-password-overlay";
-    ForgotPassword.innerHTML = `
+  const ForgotPassword = document.createElement("div");
+  ForgotPassword.className = "Forgot-password-overlay";
+  ForgotPassword.innerHTML = `
     <div class="Wrapper-forgot-password">
         <div class="Container-Header">
             <h1>RESET YOUR PASSWORD</h1>
@@ -23,5 +23,5 @@ function CreateForgotPassword() {
         </div>
     </div>
     `;
-    return ForgotPassword;
+  return ForgotPassword;
 }
